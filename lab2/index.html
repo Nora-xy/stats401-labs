@@ -1,1 +1,40 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Lab 2</title><link rel="stylesheet" href="../css/style.css"></head><body><main class="page-shell"><p class="eyebrow">STATS 401</p><h1>Lab 2</h1><p class="intro">Lab 2 will be added here.</p><p><a href="../index.html">← Back to home</a></p></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Lab 2 - Multivariate Visualization</title>
+
+    <link rel="stylesheet"
+          href="../css/style.css">
+</head>
+
+<body>
+<main class="page-shell">
+    <p class="eyebrow">STATS 401 · LAB 2</p>
+    <h1>Multivariate City Visualization</h1>
+    <nav class="lab-nav" aria-label="Course labs">
+        <a href="../lab1/">Lab 1</a>
+        <a class="active" href="./">Lab 2</a>
+        <a href="../lab3/">Lab 3</a><a href="../lab4/">Lab 4</a><a href="../lab5/">Lab 5</a>
+        <a href="../lab6/">Lab 6</a><a href="../lab7/">Lab 7</a><a href="../lab8/">Lab 8</a>
+        <a href="../lab9/">Lab 9</a><a href="../lab10/">Lab 10</a>
+    </nav>
+    <h2>Lab 2: Multivariate Visualization with D3</h2>
+
+    <p class="intro">Explore how population, average temperature, development level, and region vary across twelve cities.</p>
+    <section class="chart-card"><div id="chart"></div></section>
+    <div id="tooltip" class="tooltip"></div>
+    <section class="justification">
+        <h2>Design Justification</h2>
+        <p>I mapped population to horizontal position because it is a ratio variable with a meaningful zero, making city-size comparisons direct. Average temperature is shown vertically so viewers can compare it against population. Region uses color because it is a nominal category with no natural ordering. Development level uses circle size: larger circles indicate higher levels from Low to Medium to High. Hovering over a point reveals the city name and exact values, which helps viewers notice regional patterns and see whether larger or more developed cities tend to have different temperatures.</p>
+    </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="lab2.js"></script>
+
+</body>
+</html>
