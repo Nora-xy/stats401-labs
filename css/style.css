@@ -1,20 +1,20 @@
-:root { color-scheme: light; font-family: Arial, sans-serif; color: #1f2937; background: #f7f9fc; }
+:root { color-scheme: light; font-family: Arial, sans-serif; color: #1f2937; background: #faf7ef; }
 * { box-sizing: border-box; }
 body { margin: 0; }
 .page-shell { max-width: 1000px; margin: 0 auto; padding: 48px 24px 64px; }
-.eyebrow { margin: 0; color: #2563eb; font-size: .8rem; font-weight: 700; letter-spacing: .12em; }
+.eyebrow { margin: 0; color: #82aabb; font-size: .8rem; font-weight: 700; letter-spacing: .12em; }
 h1 { margin: 8px 0; font-size: clamp(2rem, 5vw, 3rem); }
 h2 { margin-top: 0; }
 .intro { color: #4b5563; line-height: 1.6; }
 .lab-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0; padding-bottom: 20px; border-bottom: 1px solid #dbe2ea; }
 .lab-nav a { padding: 8px 14px; border-radius: 6px; background: #e9eef5; color: #24324a; text-decoration: none; font-weight: 600; }
-.lab-nav a:hover, .lab-nav a.active { background: #2563eb; color: #fff; }
+.lab-nav a:hover, .lab-nav a.active { background: #82aabb; color: #fff; }
 .card { max-width: 650px; padding: 26px; border: 1px solid #dbe2ea; border-radius: 12px; background: #fff; box-shadow: 0 5px 16px rgb(31 41 55 / 7%); }
-.button { display: inline-block; margin-top: 8px; padding: 10px 15px; border-radius: 6px; background: #2563eb; color: #fff; text-decoration: none; font-weight: 700; }
+.button { display: inline-block; margin-top: 8px; padding: 10px 15px; border-radius: 6px; background: #82aabb; color: #fff; text-decoration: none; font-weight: 700; }
 .chart-card { padding: 24px; overflow-x: auto; border: 1px solid #dbe2ea; border-radius: 12px; background: #fff; }
 #chart svg { display: block; max-width: 100%; height: auto; }
-.bar { fill: #2563eb; }
-.bar:hover { fill: #1d4ed8; }
+.bar { fill: #82aabb; }
+.bar:hover { fill: #668d9f; }
 .label { fill: #334155; font-size: 13px; text-anchor: middle; }
 .score-label { fill: #1e3a5f; font-size: 13px; font-weight: 700; text-anchor: middle; }
-.error { color: #b91c1c; font-weight: 700; }
+.error { color: #e89aae; font-weight: 700; }
