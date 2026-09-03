@@ -1,0 +1,1001 @@
+movie_id,title,genres,release_year
+8,Edison Kinetoscopic Record of a Sneeze (1894),Documentary|Short,1894
+10,La sortie des usines Lumière (1895),Documentary|Short,1895
+12,The Arrival of a Train (1896),Documentary|Short,1896
+25,The Oxford and Cambridge University Boat Race (1895),Unknown,1895
+91,Le manoir du diable (1896),Short|Horror,1896
+131,Une nuit terrible (1896),Short|Comedy|Horror,1896
+417,A Trip to the Moon (1902),Short|Action|Adventure|Comedy|Fantasy|Sci-Fi,1902
+439,The Great Train Robbery (1903),Short|Action|Crime|Western,1903
+443,"Hiawatha, the Messiah of the Ojibway (1903)",Unknown,1903
+628,The Adventures of Dollie (1908),Action|Short,1908
+833,The Country Doctor (1909),Short|Drama,1909
+1223,Frankenstein (1910),Short|Horror|Sci-Fi,1910
+1740,The Lonedale Operator (1911),Short|Drama|Romance,1911
+2101,Cleopatra (1912),Drama|History,1912
+2130,L'inferno (1911),Adventure|Drama|Fantasy|Horror,1911
+2354,Max et Jane veulent faire du théâtre (1911),Short|Comedy|Romance,1911
+2844,Fantômas - À l'ombre de la guillotine (1913),Crime|Drama,1913
+3740,Cabiria (1914),Adventure|Drama|History,1914
+3863,Dough and Dynamite (1914),Comedy|Short,1914
+4099,"His Majesty, the Scarecrow of Oz (1914)",Family|Fantasy|Adventure|Comedy,1914
+4100,His Musical Career (1914),Short|Comedy,1914
+4101,His New Profession (1914),Short|Comedy,1914
+4210,Laughing Gas (1914),Short|Comedy,1914
+4395,The New Janitor (1914),Short|Comedy,1914
+4413,The Ocean Waif (1916),Short|Comedy|Drama,1916
+4457,The Patchwork Girl of Oz (1914),Adventure|Family|Fantasy,1914
+4518,Recreation (1914),Comedy|Short,1914
+4546,The Rounders (1914),Comedy|Short,1914
+4936,The Bank (1915),Comedy|Short,1915
+4972,The Birth of a Nation (1915),Drama|History|War,1915
+5074,The Champion (1915),Short|Comedy|Sport,1915
+5078,The Cheat (1915),Drama,1915
+5530,L'héroïsme de Paddy (1915),Unknown,1915
+5571,A Jitney Elopement (1915),Short|Comedy,1915
+5960,Regeneration (1915),Biography|Crime|Drama|Romance,1915
+6177,The Tramp (1915),Short|Comedy,1915
+6206,Les vampires (1915),Action|Adventure|Crime|Drama|Mystery|Thriller,1915
+6333,"20,000 Leagues Under the Sea (1916)",Action|Adventure|Sci-Fi,1916
+6414,Behind the Screen (1916),Short|Comedy|Romance,1916
+6437,The Blacklist (1916),Drama,1916
+6684,The Fireman (1916),Short|Comedy,1916
+6689,The Floorwalker (1916),Short|Comedy,1916
+6864,Intolerance: Love's Struggle Throughout the Ages (1916),Drama|History,1916
+7145,One A.M. (1916),Comedy|Family|Short,1916
+7162,The Pawnshop (1916),Comedy|Short,1916
+7264,The Rink (1916),Comedy|Short,1916
+7340,Shoes (1916),Drama,1916
+7507,The Vagabond (1916),Short|Comedy|Romance,1916
+7832,The Cure (1917),Short|Comedy,1917
+7880,Easy Street (1917),Short|Comedy,1917
+8133,The Immigrant (1917),Short|Comedy|Drama|Romance,1917
+8395,Otets Sergiy (1918),Biography|Drama|History,1918
+9018,A Dog's Life (1918),Short|Comedy|Drama,1918
+9340,The Man Who Woke Up (1918),Unknown,1918
+9678,Take a Chance (1918),Comedy|Short,1918
+9893,Die Austernprinzessin (1919),Comedy,1919
+9968,Broken Blossoms or The Yellow Man and the Girl (1919),Drama|Romance,1919
+10180,Godovshchina revolyutsii (1918),Documentary,1918
+10193,The Greatest Question (1919),Drama,1919
+10247,Herr Arnes pengar (1919),Drama|History,1919
+10258,His Royal Slyness (1920),Comedy|Short,1920
+10323,Das Cabinet des Dr. Caligari (1920),Fantasy|Horror|Mystery|Thriller,1920
+10747,Sunnyside (1919),Comedy|Short,1919
+10806,True Heart Susie (1919),Comedy|Drama|Romance,1919
+10930,Young Mr. Jazz (1919),Comedy|Short,1919
+11130,Dr. Jekyll and Mr. Hyde (1920),Drama|Horror|Sci-Fi,1920
+11267,Headin' Home (1920),Biography|Comedy|Drama,1920
+11439,The Mark of Zorro (1920),Adventure|Romance|Western,1920
+11508,Neighbors (1920),Short|Comedy|Romance,1920
+11541,One Week (1920),Short|Comedy,1920
+11607,Prästänkan (1920),Comedy|Drama|Horror,1920
+11656,The Scarecrow (1920),Comedy|Short|Family,1920
+11717,The Son of Tarzan (1920),Action|Adventure,1920
+11841,Way Down East (1920),Drama|Romance,1920
+11870,Within Our Gates (1920),Drama|Romance,1920
+12224,The Goat (1921),Comedy|Short,1921
+12278,The 'High Sign' (1921),Short|Comedy,1921
+12349,The Kid (1921),Comedy|Drama|Family,1921
+12364,Körkarlen (1921),Drama|Fantasy|Horror,1921
+12494,Der müde Tod (1921),Drama|Fantasy|Thriller,1921
+12532,Orphans of the Storm (1921),Drama|History|Romance,1921
+12651,Schloß Vogeloed (1921),Crime|Drama|Horror|Mystery,1921
+12675,The Sheik (1921),Adventure|Drama|Romance,1921
+12844,White and Unmarried (1921),Unknown,1921
+13025,Cops (1922),Short|Comedy|Family,1922
+13086,"Dr. Mabuse, der Spieler (1922)",Crime|Mystery|Thriller,1922
+13099,The Electric House (1922),Short|Comedy,1922
+13140,Foolish Wives (1922),Drama|Thriller,1922
+13257,Häxan (1922),Documentary|Fantasy|Horror,1922
+13427,Nanook of the North (1922),Documentary,1922
+13442,Nosferatu (1922),Fantasy|Horror,1922
+13486,Pay Day (1922),Comedy|Short,1922
+13571,Salomé (1922),Biography|Drama|History|Horror,1922
+13626,La souriante Madame Beudet (1923),Drama,1923
+13741,Das Weib des Pharao (1922),Drama|History,1922
+13858,The Balloonatic (1923),Short|Comedy,1923
+14142,The Hunchback of Notre Dame (1923),Drama|Horror|Romance,1923
+14341,Our Hospitality (1923),Comedy|Romance|Thriller,1923
+14390,En rackarunge (1924),Drama,1924
+14417,La roue (1923),Drama,1923
+14429,Safety Last! (1923),Comedy|Thriller,1923
+14497,Souls for Sale (1923),Comedy|Drama|Romance,1923
+14532,The Ten Commandments (1923),Biography|Drama|Fantasy,1923
+14538,Three Ages (1923),Comedy,1923
+14624,A Woman of Paris: A Drama of Fate (1923),Drama|Romance,1923
+14664,Alice's Spooky Adventure (1924),Animation|Short|Comedy,1924
+14872,Entr'acte (1924),Short,1924
+14972,He Who Gets Slapped (1924),Drama|Romance|Thriller,1924
+15002,Hot Water (1924),Comedy,1924
+15016,The Iron Horse (1924),History|Romance|Western,1924
+15039,Kinoglaz (1924),Documentary,1924
+15064,Der letzte Mann (1924),Drama,1924
+15163,The Navigator (1924),Action|Comedy|Romance,1924
+15174,Die Nibelungen: Kriemhilds Rache (1924),Adventure|Drama|Fantasy,1924
+15175,Die Nibelungen: Siegfried (1924),Adventure|Drama|Fantasy,1924
+15202,Orlacs Hände (1924),Crime|Horror|Mystery|Sci-Fi|Thriller,1924
+15233,En piga bland pigor (1924),Comedy|Drama,1924
+15310,The Sea Hawk (1924),Adventure|Drama|Romance,1924
+15324,Sherlock Jr. (1924),Action|Comedy|Romance,1924
+15361,Stachka (1925),Drama,1925
+15400,The Thief of Bagdad (1924),Adventure|Family|Fantasy|Romance,1924
+15477,West of Hot Dog (1924),Short|Western|Comedy,1924
+15532,Die Abenteuer des Prinzen Achmed (1926),Animation|Adventure|Fantasy|Romance,1926
+15624,The Big Parade (1925),Drama|Romance|War,1925
+15648,Bronenosets Potyomkin (1925),Drama|History,1925
+15673,Shakhmatnaya goryachka (1925),Comedy|Short,1925
+15768,Du skal ære din hustru (1925),Drama,1925
+15772,De adelaar (1925),Action|Comedy|Drama|History|Romance,1925
+15864,The Gold Rush (1925),Adventure|Comedy|Drama|Family,1925
+15881,Greed (1924),Drama|Thriller|Western,1924
+16039,The Lost World (1925),Adventure|Fantasy|Sci-Fi,1925
+16172,"Oh, Doctor! (1925)",Comedy,1925
+16220,The Phantom of the Opera (1925),Horror,1925
+16230,The Pleasure Garden (1925),Drama|Romance,1925
+16332,Seven Chances (1925),Comedy|Romance,1925
+16361,Smouldering Fires (1925),Drama,1925
+16544,The Wizard of Oz (1925),Comedy|Family|Fantasy|Adventure,1925
+16600,Along Came Auntie (1926),Comedy|Short,1926
+16654,The Black Pirate (1926),Adventure|Action,1926
+16747,Crazy Like a Fox (1926),Short|Comedy,1926
+16847,Faust: Eine deutsche Volkssage (1926),Drama|Fantasy|Horror,1926
+16903,45 Minutes from Hollywood (1926),Short|Comedy,1926
+16954,Hell's Four Hundred (1926),Unknown,1926
+17075,The Lodger: A Story of the London Fog (1927),Crime|Drama|Mystery|Thriller,1927
+17136,Metropolis (1927),Drama|Sci-Fi,1927
+17196,Nana (1926),Drama|Romance,1926
+17350,The Scarlet Letter (1926),Drama,1926
+17378,Shinel (1926),Drama,1926
+17423,Sparrows (1926),Drama,1926
+17463,3 Bad Men (1926),Romance|Western,1926
+17668,Berlin: Die Sinfonie der Grosstadt (1927),Documentary,1927
+17729,Call of the Cuckoo (1927),Comedy|Short,1927
+17739,The Cat and the Canary (1927),Comedy|Horror|Mystery,1927
+17765,College (1927),Comedy|Drama|Sport,1927
+17825,Downhill (1927),Adventure|Drama|Thriller,1927
+17836,Duck Soup (1927),Comedy|Short,1927
+17841,"East Side, West Side (1927)",Drama,1927
+17843,Easy Virtue (1928),Romance|Thriller,1928
+17925,The General (1926),Action|Adventure|Comedy|Drama|War|Western,1926
+18033,It (1927),Comedy|Romance,1927
+18037,The Jazz Singer (1927),Drama|Music|Musical|Romance,1927
+18051,The Kid Brother (1927),Comedy|Drama|Family|Romance,1927
+18106,Love 'Em and Weep (1927),Comedy|Short,1927
+18192,Napoléon (1927),Biography|Drama|History|War,1927
+18217,Oktyabr (1928),Drama|History,1928
+18294,Putting Pants on Philip (1927),Comedy|Short,1927
+18328,The Ring (1927),Drama|Romance|Sport,1927
+18356,"Sailors, Beware! (1927)",Short|Comedy,1927
+18368,The Second 100 Years (1927),Comedy|Short,1927
+18452,Sugar Daddies (1927),Comedy|Short,1927
+18455,Sunrise: A Song of Two Humans (1927),Drama|Romance,1927
+18471,Tell It to the Marines (1926),Comedy|Drama|Romance,1926
+18505,Tretya meshchanskaya (1927),Comedy|Drama,1927
+18526,Underworld (1927),Crime|Drama|Film-Noir|Romance,1927
+18528,The Unknown (1927),Drama|Horror|Romance|Thriller,1927
+18578,Wings (1927),Drama|Romance|War|Action,1927
+18583,With Love and Hisses (1927),Comedy|Short,1927
+18684,Beggars of Life (1928),Adventure|Drama,1928
+18737,Die Büchse der Pandora (1929),Crime|Drama|Romance,1929
+18742,The Cameraman (1928),Comedy|Romance|Family|Drama,1928
+18773,The Circus (1928),Comedy|Romance,1928
+18806,The Crowd (1928),Drama|Romance,1928
+18839,The Docks of New York (1928),Crime|Drama|Film-Noir|Romance,1928
+18860,Early to Bed (1928),Comedy|Short,1928
+18876,The Farmer's Wife (1928),Comedy|Drama|Romance,1928
+18890,The Finishing Touch (1928),Comedy|Short,1928
+19071,The Last Command (1928),Drama|History|Romance|War,1928
+19074,"Laugh, Clown, Laugh (1928)",Drama,1928
+19079,Leave 'Em Laughing (1928),Comedy|Short,1928
+19109,Lonesome (1928),Comedy|Drama|Romance,1928
+19130,The Man Who Laughs (1928),Drama|Horror|Mystery|Romance|Thriller,1928
+19195,The Mysterious Lady (1928),Drama|Romance,1928
+19254,La passion de Jeanne d'Arc (1928),Biography|Drama|History,1928
+19286,Potomok Chingis-Khana (1928),Drama|War,1928
+19344,Sadie Thompson (1928),Drama,1928
+19376,Should Married Men Go Home? (1928),Comedy|Short,1928
+19412,Speedy (1928),Action|Comedy|Family,1928
+19415,Spione (1928),Romance|Thriller,1928
+19421,"Steamboat Bill, Jr. (1928)",Action|Comedy|Drama|Family|Romance,1928
+19422,Steamboat Willie (1928),Animation|Short|Comedy|Family|Musical,1928
+19429,Street Angel (1928),Drama,1928
+19465,Their Purple Moment (1928),Comedy|Short,1928
+19504,Two Tars (1928),Comedy|Short,1928
+19509,Underground (1928),Drama|Romance,1928
+19556,We Faw Down (1928),Comedy|Short,1928
+19585,The Wind (1928),Drama|Romance|Western,1928
+19591,A Woman of Affairs (1928),Drama,1928
+19607,You're Darn Tootin' (1928),Short|Comedy|Music,1928
+19686,Berth Marks (1929),Short|Comedy,1929
+19688,Big Business (1929),Short|Comedy|Family,1929
+19702,Blackmail (1929),Crime|Thriller,1929
+19729,The Broadway Melody (1929),Drama|Musical|Romance,1929
+19760,Chelovek s kino-apparatom (1929),Documentary|Music,1929
+19777,The Cocoanuts (1929),Comedy|Musical,1929
+19796,Daigaku wa detakeredo (1929),Comedy,1929
+19832,Double Whoopee (1929),Comedy|Short,1929
+19838,Drifters (1929),Documentary,1929
+19901,Frau im Mond (1929),Comedy|Drama|Romance|Sci-Fi,1929
+19957,Half Marriage (1929),Drama|Romance,1929
+19993,The Hollywood Revue of 1929 (1929),Musical,1929
+19999,The Hoose-Gow (1929),Comedy|Short,1929
+20030,The Iron Mask (1929),Adventure|Drama|History|Romance,1929
+20112,The Love Parade (1929),Comedy|Musical|Romance,1929
+20122,Lucky Star (1929),Drama|Romance,1929
+20142,The Manxman (1929),Drama|Romance,1929
+20161,Men O'War (1929),Short|Comedy|Family,1929
+20163,Menschen am Sonntag (1930),Comedy|Drama|Romance,1930
+20264,Perfect Day (1929),Short|Comedy,1929
+20286,Prapancha Pash (1929),Adventure|Drama|Romance,1929
+20471,Synthetic Sin (1929),Comedy,1929
+20475,Tagebuch einer Verlorenen (1929),Drama,1929
+20487,That's My Wife (1929),Comedy|Short,1929
+20489,They Go Boom! (1929),Comedy|Short,1929
+20514,The Trespasser (1929),Drama,1929
+20530,Un chien andalou (1929),Short|Fantasy|Horror,1929
+20531,Unaccustomed As We Are (1929),Comedy|Short,1929
+20572,Welcome Danger (1929),Comedy,1929
+20581,Where East Is East (1929),Drama|Romance,1929
+20585,Why Be Good? (1929),Comedy|Drama|Romance,1929
+20629,All Quiet on the Western Front (1930),Drama|War,1930
+20640,Animal Crackers (1930),Comedy|Musical,1930
+20641,Anna Christie (1930),Drama|Romance,1930
+20643,Another Fine Mess (1930),Comedy|Short,1930
+20678,Below Zero (1930),Short|Comedy,1930
+20686,The Big House (1930),Crime|Drama|Thriller,1930
+20691,The Big Trail (1930),Adventure|Romance|Western,1930
+20693,Billy the Kid (1930),Biography|Drama|Western,1930
+20697,Der blaue Engel (1930),Drama|Music,1930
+20698,Blotto (1930),Short|Comedy,1930
+20708,Brats (1930),Comedy|Short|Family,1930
+20768,City Girl (1930),Drama|Romance,1930
+20827,The Divorcee (1930),Romance|Drama,1930
+20859,Escape! (1930),Crime|Drama,1930
+20902,Free and Easy (1930),Comedy|Musical,1930
+20927,The Golf Specialist (1930),Short|Comedy|Sport,1930
+20960,Hell's Angels (1930),Drama|War,1930
+20979,Hog Wild (1930),Short|Comedy,1930
+20980,Hogaraka ni ayume (1930),Crime|Drama|Romance,1930
+20987,Hook Line and Sinker (1930),Comedy|Romance,1930
+21013,Journey's End (1930),Drama|War,1930
+21054,The Laurel-Hardy Murder Case (1930),Short|Comedy|Crime|Mystery,1930
+21079,Little Caesar (1931),Action|Crime|Drama|Romance,1931
+21156,Morocco (1930),Drama|Romance,1930
+21165,Murder! (1930),Crime|Mystery|Thriller,1930
+21182,Night Owls (1930),Short|Comedy,1930
+21197,The Office Wife (1930),Drama|Romance,1930
+21283,Rakudai wa shitakeredo (1930),Comedy|Drama,1930
+21331,Le sang d'un poète (1932),Fantasy,1932
+21406,Sono yo no tsuma (1930),Crime|Drama,1930
+21409,Sous les toits de Paris (1930),Comedy|Drama|Musical,1930
+21508,Up the River (1930),Comedy|Crime|Drama,1930
+21542,Westfront 1918: Vier von der Infanterie (1930),Drama|Romance|War,1930
+21571,Zemlya (1930),Drama,1930
+21576,À propos de Nice (1930),Documentary|Short|Comedy,1930
+21577,L'âge d'or (1930),Comedy|Drama,1930
+21636,The Bad Sister (1931),Drama,1931
+21646,Beau Hunks (1931),Short|Comedy,1931
+21649,Behind Office Doors (1931),Drama|Romance,1931
+21684,Born to Love (1931),Drama|Romance|War,1931
+21738,Chickens Come Home- (1931),Short|Comedy,1931
+21739,La chienne (1931),Crime|Drama,1931
+21746,Cimarron (1931),Drama|Western,1931
+21749,City Lights (1931),Comedy|Drama|Romance,1931
+21750,City Streets (1931),Crime|Drama|Film-Noir|Romance,1931
+21755,Come Clean (1931),Short|Comedy,1931
+21772,The Cuban Love Song (1931),Musical|Romance,1931
+21785,Daughter of the Dragon (1931),Crime|Drama,1931
+21814,Dracula (1931),Fantasy|Horror,1931
+21815,Drácula (1931),Drama|Fantasy|Horror,1931
+21861,Fighting Caravans (1931),Romance|Western,1931
+21884,Frankenstein (1931),Drama|Horror|Sci-Fi,1931
+21885,A Free Soul (1931),Crime|Drama|Romance,1931
+21890,The Front Page (1931),Comedy,1931
+22017,Kameradschaft (1931),Drama,1931
+22047,The Lady Who Dared (1931),Drama,1931
+22048,Shukujo to hige (1931),Comedy|Romance,1931
+22058,Laughing Gravy (1931),Short|Comedy,1931
+22080,Limite (1931),Drama|Romance,1931
+22100,M - Eine Stadt sucht einen Mörder (1931),Crime|Mystery|Thriller,1931
+22105,Madamu to nyôbô (1931),Comedy|Drama,1931
+22117,The Man in Possession (1931),Comedy,1931
+22125,Marius (1931),Comedy|Drama|Romance,1931
+22149,Millie (1931),Drama|Romance,1931
+22150,Le million (1931),Musical|Comedy,1931
+22158,Monkey Business (1931),Comedy|Musical,1931
+22183,Mädchen in Uniform (1931),Drama|Romance,1931
+22204,Niemandsland (1931),Drama|War,1931
+22208,Night Nurse (1931),Comedy|Crime|Drama,1931
+22251,Pardon Us (1931),Comedy|Crime|Drama|Musical,1931
+22279,Private Lives (1931),Comedy|Drama|Romance,1931
+22286,The Public Enemy (1931),Crime|Drama,1931
+22335,Safe in Hell (1931),Crime|Drama,1931
+22339,Santa (1932),Drama,1932
+22395,The Skin Game (1931),Drama,1931
+22397,Skippy (1931),Comedy|Drama|Family,1931
+22403,Smart Money (1931),Crime|Drama,1931
+22404,Smart Woman (1931),Comedy|Drama|Romance,1931
+22454,Svengali (1931),Drama|Horror|Romance|Sci-Fi,1931
+22458,Tabu: A Story of the South Seas (1931),Drama|Romance|Adventure,1931
+22462,"Taris, roi de l'eau (1931)",Documentary|Short|Sport,1931
+22495,Trader Horn (1931),Action|Adventure|Drama|Romance,1931
+22517,Under 18 (1931),Drama|Romance,1931
+22599,À nous la liberté (1931),Comedy|Musical,1931
+22628,The Animal Kingdom (1932),Comedy|Drama|Romance,1932
+22630,Any Old Port! (1932),Short|Comedy,1932
+22694,Das blaue Licht (1932),Drama|Fantasy|Mystery,1932
+22718,Boudu sauvé des eaux (1932),Comedy,1932
+22732,Buzzin' Around (1933),Short|Comedy,1933
+22778,The Conquerors (1932),Drama|Western,1932
+22782,County Hospital (1932),Short|Comedy,1932
+22787,Les croix de bois (1932),Drama|War,1932
+22792,The Crowd Roars (1932),Action|Drama|Sport,1932
+22807,The Dentist (1932),Comedy|Short,1932
+22817,The Devil's Cabaret (1930),Comedy|Musical|Short,1930
+22834,Downstairs (1932),Drama|Romance,1932
+22835,Dr. Jekyll and Mr. Hyde (1931),Horror|Sci-Fi,1931
+22879,A Farewell to Arms (1932),Drama|Romance|War,1932
+22882,Fast Life (1932),Comedy|Romance|Sport,1932
+22883,The Fatal Glass of Beer (1933),Short|Comedy,1933
+22913,Freaks (1932),Drama|Horror,1932
+22958,Grand Hotel (1932),Drama|Romance,1932
+22981,Haunted Gold (1932),Horror|Mystery|Western,1932
+22991,Hell's House (1932),Drama,1932
+22994,Helpmates (1932),Short|Comedy,1932
+23027,Horse Feathers (1932),Comedy|Musical|Romance|Sport,1932
+23037,Las Hurdes (1933),Documentary|Short,1933
+23042,I Am a Fugitive from a Chain Gang (1932),Crime|Drama|Film-Noir,1932
+23049,If I Had a Million (1932),Comedy|Drama,1932
+23054,The Impassive Footman (1932),Crime|Drama,1932
+23130,"Let Me Explain, Dear (1932)",Comedy,1932
+23158,Love Me Tonight (1932),Comedy|Musical|Romance,1932
+23180,Man Wanted (1932),Romance|Comedy|Drama,1932
+23194,The Mask of Fu Manchu (1932),Adventure|Horror|Sci-Fi,1932
+23202,Me and My Gal (1932),Comedy|Drama|Romance,1932
+23213,Merrily We Go to Hell (1932),Comedy|Drama|Romance,1932
+23238,The Most Dangerous Game (1932),Action|Adventure|Thriller,1932
+23245,The Mummy (1932),Fantasy|Horror,1932
+23249,Murders in the Rue Morgue (1932),Crime|Horror|Mystery,1932
+23251,The Music Box (1932),Comedy|Short,1932
+23266,Night After Night (1932),Comedy|Drama,1932
+23285,Number Seventeen (1932),Crime|Mystery|Thriller,1932
+23293,The Old Dark House (1932),Comedy|Horror|Thriller,1932
+23300,On the Loose (1931),Comedy|Short,1931
+23302,Once in a Lifetime (1932),Comedy,1932
+23303,One Hour with You (1932),Comedy|Musical|Romance,1932
+23305,One Way Passage (1932),Comedy|Drama|Romance,1932
+23312,Pack Up Your Troubles (1932),Comedy|War,1932
+23327,Penguin Pool Murder (1932),Comedy|Drama|Mystery|Romance,1932
+23333,The Phantom Express (1932),Mystery|Thriller,1932
+23349,Polly of the Circus (1932),Comedy|Drama|Romance,1932
+23362,The Purchase Price (1932),Drama|Comedy,1932
+23369,Rain (1932),Drama,1932
+23395,Rich and Strange (1931),Comedy|Romance|Thriller,1931
+23427,Scarface (1932),Action|Crime|Drama|Film-Noir|Thriller,1932
+23439,Scram! (1932),Comedy|Short,1932
+23458,Shanghai Express (1932),Adventure|Drama|Romance|Thriller,1932
+23551,Tarzan the Ape Man (1932),Action|Adventure|Romance,1932
+23563,Das Testament des Dr. Mabuse (1933),Crime,1933
+23578,Their First Mistake (1932),Comedy|Short,1932
+23583,The Thirteenth Guest (1932),Mystery|Thriller,1932
+23590,Three on a Match (1932),Crime|Drama|Romance,1932
+23613,Towed in a Hole (1932),Comedy|Short,1932
+23622,Trouble in Paradise (1932),Comedy|Crime|Romance,1932
+23634,Otona no miru ehon - Umarete wa mita keredo (1932),Comedy|Drama,1932
+23640,Unheimliche Geschichten (1932),Comedy|Sci-Fi|Horror,1932
+23642,Union Depot (1932),Comedy|Drama|Romance,1932
+23649,Vampyr (1932),Fantasy|Horror,1932
+23685,The Wet Parade (1932),Drama|History|Romance,1932
+23686,What Price Hollywood? (1932),Drama,1932
+23694,White Zombie (1932),Horror,1932
+23753,Alice in Wonderland (1933),Adventure|Family|Fantasy,1933
+23775,Baby Face (1933),Drama|Romance,1933
+23785,Beauty for Sale (1933),Drama|Romance,1933
+23808,The Big Chance (1933),Action|Adventure|Comedy|Crime|Drama|Romance|Sport,1933
+23814,The Bitter Tea of General Yen (1932),Drama|Romance|War,1932
+23817,Blondie Johnson (1933),Crime|Drama,1933
+23848,Broadway to Hollywood (1933),History|Musical,1933
+23858,Busy Bodies (1933),Short|Comedy,1933
+23876,Cavalcade (1933),Drama|Romance|War,1933
+23902,El compadre Mendoza (1934),Drama|War,1934
+23923,A Cuckoo in the Nest (1933),Comedy,1933
+23926,Dancing Lady (1933),Comedy|Musical|Romance,1933
+23937,Dekigokoro (1933),Drama,1933
+23940,Design for Living (1933),Comedy|Romance,1933
+23948,Dinner at Eight (1933),Comedy|Drama,1933
+23950,Dirty Work (1933),Short|Comedy|Sci-Fi,1933
+23960,Double Harness (1933),Comedy|Drama,1933
+23969,Duck Soup (1933),Comedy|Musical|War,1933
+24028,Footlight Parade (1933),Comedy|Musical|Romance,1933
+24034,42nd Street (1933),Comedy|Musical|Romance,1933
+24054,The Ghost Camera (1933),Comedy|Crime|Mystery,1933
+24069,Gold Diggers of 1933 (1933),Comedy|Drama|Musical,1933
+24083,Hallelujah I'm a Bum (1933),Comedy|Drama|Musical,1933
+24092,Havana Widows (1933),Comedy,1933
+24120,Hijôsen no onna (1933),Crime|Drama|Romance,1933
+24124,His Private Secretary (1933),Comedy|Romance,1933
+24166,I'm No Angel (1933),Comedy|Musical|Romance,1933
+24183,International House (1933),Comedy,1933
+24184,The Invisible Man (1933),Horror|Sci-Fi,1933
+24188,Island of Lost Souls (1932),Horror|Sci-Fi,1932
+24210,The Kennel Murder Case (1933),Crime|Mystery,1933
+24216,King Kong (1933),Adventure|Horror|Sci-Fi,1933
+24235,Københavnere (1933),Comedy|Drama|Music,1933
+24252,Liebelei (1933),Drama|Romance,1933
+24264,Little Women (1933),Drama|Family|Romance,1933
+24316,Me and My Pal (1933),Short|Comedy,1933
+24335,The Midnight Patrol (1933),Short|Comedy,1933
+24353,Morning Glory (1933),Drama|Romance,1933
+24368,Mystery of the Wax Museum (1933),Horror|Mystery|Thriller,1933
+24402,Okraina (1933),Drama|War,1933
+24450,Picture Snatcher (1933),Drama|Crime,1933
+24473,The Private Life of Henry VIII. (1933),Biography|Comedy|Drama|History|Romance,1933
+24481,Queen Christina (1933),Biography|Drama|History|Romance,1933
+24548,She Done Him Wrong (1933),Comedy|Drama|History|Musical|Romance,1933
+24554,A Shriek in the Night (1933),Crime|Mystery|Romance|Thriller,1933
+24601,Sons of the Desert (1933),Comedy,1933
+24659,Those Were the Days (1934),Comedy,1934
+24660,Three Little Pigs (1933),Animation|Short|Comedy|Family|Musical,1933
+24706,Twice Two (1933),Comedy|Short,1933
+24747,Waltzes from Vienna (1934),Biography|Music|Romance,1934
+24803,Zéro de conduite: Jeunes diables au collège (1933),Short|Comedy|Drama,1933
+24831,Anne of Green Gables (1934),Comedy|Drama|Family,1934
+24844,L'Atalante (1934),Comedy|Drama|Romance,1934
+24852,Babes in Toyland (1934),Comedy|Family|Fantasy|Musical,1934
+24873,Belle of the Nineties (1934),Comedy|Drama|Musical,1934
+24894,The Black Cat (1934),Adventure|Crime|Horror|Romance|Thriller,1934
+24914,Bright Eyes (1934),Comedy|Drama|Family|Musical,1934
+24933,Bulldog Jack (1935),Comedy|Crime|Mystery,1935
+24989,The Clairvoyant (1934),Drama|Mystery|Romance,1934
+25004,The Count of Monte Cristo (1934),Action|Adventure|Drama|History|Romance|Thriller,1934
+25132,Forsaking All Others (1934),Comedy|Drama|Romance,1934
+25164,The Gay Divorcee (1934),Comedy|Musical|Romance,1934
+25187,Going Spanish (1934),Comedy|Musical|Short,1934
+25263,Hollywood Party (1934),Animation|Comedy|Musical,1934
+25272,The House of Rothschild (1934),Biography|Drama|History,1934
+25290,I've Got Your Number (1934),Comedy|Romance,1934
+25301,Imitation of Life (1934),Drama|Romance,1934
+25316,It Happened One Night (1934),Comedy|Romance,1934
+25318,It's a Gift (1934),Comedy,1934
+25330,Jimmy the Gent (1934),Comedy|Crime|Drama|Romance,1934
+25335,Judge Priest (1934),Comedy|Drama|Romance,1934
+25373,The Lawless Frontier (1934),Romance|Western,1934
+25409,The Little Minister (1934),Drama|Romance,1934
+25413,The Live Ghost (1934),Short|Comedy,1934
+25424,Lost in the Stratosphere (1934),Action|Adventure|Comedy|Drama|Romance,1934
+25452,The Man Who Knew Too Much (1934),Crime|Mystery|Thriller,1934
+25456,Man of Aran (1934),Documentary,1934
+25461,Mandalay (1934),Drama|Romance,1934
+25464,Manhattan Melodrama (1934),Crime|Drama|Romance,1934
+25492,The Merry Frinks (1934),Comedy|Drama,1934
+25494,Merry Wives of Reno (1934),Comedy,1934
+25586,Of Human Bondage (1934),Drama|Romance,1934
+25590,The Old Fashioned Way (1934),Comedy,1934
+25591,Oliver the Eighth (1934),Short|Comedy,1934
+25592,On demande une brute (1934),Short,1934
+25610,Our Daily Bread (1934),Drama|Romance,1934
+25641,Peculiar Penguins (1934),Animation|Short|Comedy,1934
+25746,The Scarlet Empress (1934),Drama|History|Romance,1934
+25747,The Scarlet Letter (1934),Drama|History|Romance,1934
+25759,The Secret of the Loch (1934),Adventure|Fantasy|Comedy,1934
+25803,Smarty (1934),Comedy|Romance,1934
+25862,Tarzan and His Mate (1934),Action|Adventure,1934
+25873,Them Thar Hills (1934),Comedy|Short,1934
+25878,The Thin Man (1934),Comedy|Crime|Mystery,1934
+25905,Transatlantic Merry-Go-Round (1934),Comedy|Musical|Mystery,1934
+25913,Triumph des Willens (1935),Documentary|History|War,1935
+25919,Twentieth Century (1934),Comedy|Romance,1934
+25929,Ukikusa monogatari (1934),Drama,1934
+25948,Viva Villa! (1934),Biography|Western,1934
+26029,The 39 Steps (1935),Mystery|Thriller,1935
+26040,Aerograd (1935),Drama,1935
+26123,The Black Room (1935),Crime|Horror,1935
+26132,Boys Will Be Boys (1935),Comedy,1935
+26138,The Bride of Frankenstein (1935),Drama|Horror|Sci-Fi,1935
+26174,Captain Blood (1935),Action|Adventure,1935
+26202,Cheer Up (1936),Musical,1936
+26221,Clive of India (1935),Action|Adventure|Biography,1935
+26246,Crime and Punishment (1935),Crime|Drama,1935
+26252,Curly Top (1935),Family|Musical|Romance,1935
+26258,Dandy Dick (1935),Comedy,1935
+26261,Dangerous (1935),Drama,1935
+26266,"The Personal History, Adventures, Experience, &amp; Observation of David Copperfield the Younger (1935)",Adventure|Drama|Romance,1935
+26276,The Devil Is a Woman (1935),Comedy|Drama|Romance,1935
+26312,Emil and the Detectives (1935),Adventure|Family,1935
+26362,The Fixer Uppers (1935),Short|Comedy,1935
+26394,Gai dimanche! (1935),Short|Comedy,1935
+26406,The Ghost Goes West (1935),Comedy|Fantasy|Horror|Romance,1935
+26465,Here Comes Cookie (1935),Comedy|Music,1935
+26529,The Informer (1935),Crime|Drama,1935
+26549,Jinsei no onimotsu (1935),Comedy,1935
+26614,Lawless Range (1935),Western,1935
+26663,Mad Love (1935),Horror|Romance|Sci-Fi,1935
+26685,Mark of the Vampire (1935),Horror|Mystery,1935
+26714,A Midsummer Night's Dream (1935),Comedy|Fantasy|Romance,1935
+26721,Miss Pacific Fleet (1935),Comedy|Romance,1935
+26743,"Maria Marten, or The Murder in the Red Barn (1935)",Crime|Drama,1935
+26752,Mutiny on the Bounty (1935),Adventure|Biography|Drama|History|Romance,1935
+26756,The Mystery Man (1935),Action|Adventure|Crime|Mystery|Romance,1935
+26768,Naughty Marietta (1935),Drama|Musical|Romance,1935
+26778,A Night at the Opera (1935),Comedy|Music|Musical,1935
+26866,Peter Ibbetson (1935),Drama|Fantasy|Romance,1935
+26868,The Phantom Light (1935),Mystery|Thriller,1935
+26912,The Raven (1935),Crime|Horror,1935
+26921,Remember Last Night? (1935),Comedy|Mystery,1935
+26966,Sanders of the River (1935),Adventure|Drama|Music,1935
+26971,A Scream in the Night (1935),Crime|Mystery|Thriller,1935
+26983,She (1935),Adventure|Fantasy|Romance|Sci-Fi,1935
+27075,A Tale of Two Cities (1935),Drama|History|Romance,1935
+27089,Thicker Than Water (1935),Comedy|Short,1935
+27090,Things Are Looking Up (1935),Comedy,1935
+27113,Tit for Tat (1935),Comedy|Short|Family,1935
+27125,Top Hat (1935),Comedy|Musical|Romance,1935
+27131,The Tunnel (1935),Drama|Sci-Fi,1935
+27133,Traveling Saleslady (1935),Comedy|Romance,1935
+27194,Werewolf of London (1935),Drama|Fantasy|Horror,1935
+27214,The Whole Town's Talking (1935),Comedy|Crime|Drama,1935
+27258,Adventure in Manhattan (1936),Comedy|Crime|Drama,1936
+27286,The Amazing Quest of Ernest Bliss (1936),Drama|Romance|Comedy,1936
+27302,Anything Goes (1936),Comedy|Musical,1936
+27307,Arigatô-san (1936),Comedy|Drama,1936
+27311,As You Like It (1936),Drama|Comedy|Romance,1936
+27327,El bailarín y el trabajador (1936),Comedy,1936
+27331,Banjo on My Knee (1936),Comedy|Drama|Romance,1936
+27336,Les bas-fonds (1936),Crime|Drama|Romance,1936
+27342,La belle équipe (1936),Drama,1936
+27347,The Beloved Vagabond (1936),Drama|Musical,1936
+27367,Black Legion (1937),Crime|Drama|Film-Noir,1937
+27376,The Bohemian Girl (1936),Comedy|Musical,1936
+27387,Born to Dance (1936),Musical|Comedy,1936
+27407,Bullets or Ballots (1936),Crime|Drama|Film-Noir,1936
+27438,The Charge of the Light Brigade (1936),Action|Adventure|Romance|War,1936
+27442,Charlie Chan's Secret (1936),Comedy|Crime|Horror,1936
+27462,Conflict (1936),Drama|Romance|Sport,1936
+27478,Le crime de Monsieur Lange (1936),Comedy|Crime|Drama,1936
+27481,The Crimes of Stephen Hawke (1936),Crime|Drama|Thriller,1936
+27515,Desire (1936),Comedy|Crime|Romance,1936
+27521,The Devil-Doll (1936),Drama|Horror|Sci-Fi,1936
+27532,Dodsworth (1936),Drama|Romance,1936
+27545,Dracula&x27;s Daughter (1936),Drama|Fantasy|Horror,1936
+27630,Follow the Fleet (1936),Comedy|Musical|Romance,1936
+27652,Fury (1936),Crime|Drama|Film-Noir|Thriller,1936
+27657,The Garden of Allah (1936),Adventure|Drama|Romance,1936
+27664,The General Died at Dawn (1936),Adventure|Crime|Film-Noir,1936
+27686,Gold Diggers of 1937 (1936),Comedy|Musical|Romance,1936
+27698,The Great Ziegfeld (1936),Biography|Drama|Musical|Romance,1936
+27714,Half Shot Shooters (1936),Comedy|Short,1936
+27752,Hitori musuko (1936),Drama,1936
+27765,The House of the Spaniard (1936),Adventure|Crime,1936
+27796,Intermezzo (1936),Drama|Romance,1936
+27800,The Invisible Ray (1936),Horror|Sci-Fi|Thriller,1936
+27859,Laburnum Grove (1936),Comedy,1936
+27869,The Last of the Mohicans (1936),Adventure|Drama|History|War|Western,1936
+27876,The Lawless Nineties (1936),Western,1936
+27884,Libeled Lady (1936),Comedy|Romance,1936
+27893,Little Lord Fauntleroy (1936),Drama|Family,1936
+27948,Mary of Scotland (1936),Biography|Drama|History|Romance,1936
+27959,A Message to Garcia (1936),Drama|Romance,1936
+27977,Modern Times (1936),Comedy|Drama|Family|Romance,1936
+27996,Mr. Deeds Goes to Town (1936),Comedy|Drama|Romance,1936
+28004,Murder with Pictures (1936),Crime|Mystery,1936
+28010,My Man Godfrey (1936),Comedy|Drama|Romance,1936
+28021,Naniwa erejî (1936),Drama,1936
+28030,Night Mail (1936),Short|Documentary,1936
+28074,The Pace That Kills (1935),Crime|Drama,1935
+28096,The Petrified Forest (1936),Drama|Film-Noir|Romance|Thriller,1936
+28118,Poor Little Rich Girl (1936),Adventure|Comedy|Family|Musical|Romance,1936
+28119,Popeye the Sailor Meets Sindbad the Sailor (1936),Animation|Short|Adventure|Comedy|Family|Fantasy|Musical,1936
+28141,The Prisoner of Shark Island (1936),Biography|Drama|History,1936
+28167,Rembrandt (1936),Biography|Drama,1936
+28201,Le roman d'un tricheur (1936),Comedy,1936
+28203,Romeo and Juliet (1936),Drama|Romance,1936
+28212,Sabotage (1936),Thriller,1936
+28231,Secret Agent (1936),Mystery|Thriller,1936
+28232,Secret Patrol (1936),Action|Adventure|Romance,1936
+28241,Shadow of Chinatown (1936),Crime|Horror|Sci-Fi,1936
+28275,Soigne ton gauche (1936),Short|Comedy|Sport,1936
+28333,Swing Time (1936),Comedy|Musical|Romance,1936
+28346,Tell Your Children (1936),Crime|Drama,1936
+28358,Things to Come (1936),Drama|Sci-Fi|War,1936
+28436,U samogo sinego morya (1936),Drama|Musical|Romance,1936
+28445,Partie de campagne (1936),Short|Comedy|Drama|Romance,1936
+28484,We Who Are About to Die (1937),Crime|Drama,1937
+28496,Where There's a Will (1936),Comedy,1936
+28509,Windbag the Sailor (1936),Comedy,1936
+28557,Affairs of Cappy Ricks (1937),Comedy|Drama,1937
+28597,The Awful Truth (1937),Comedy|Romance,1937
+28663,Brief Ecstasy (1937),Drama|Romance,1937
+28670,Bulldog Drummond's Revenge (1937),Adventure|Mystery,1937
+28683,Camille (1936),Drama|Romance,1936
+28691,Captains Courageous (1937),Adventure|Drama|Family,1937
+28697,Cash and Carry (1937),Comedy|Short,1937
+28772,A Day at the Races (1937),Comedy|Musical|Sport,1937
+28944,De goede aarde (1937),Drama|Romance,1937
+28945,"Good Morning, Boys (1937)",Comedy,1937
+28950,La grande illusion (1937),Drama|War,1937
+28988,"Heidi, het stiefkind (1937)",Drama|Family|Musical,1937
+29080,Kid Galahad (1937),Crime|Drama|Romance|Sport,1937
+29146,The Life of Emile Zola (1937),Biography|Drama,1937
+29162,Lost Horizon (1937),Adventure|Drama|Fantasy|Mystery,1937
+29179,Madame X (1937),Drama,1937
+29192,Make Way for Tomorrow (1937),Comedy|Drama|Romance,1937
+29201,The Man Who Could Work Miracles (1936),Comedy|Fantasy,1936
+29284,My Favorite Wife (1940),Comedy|Romance,1940
+29314,Ninjô kami fûsen (1937),Drama,1937
+29322,Niets is heilig (1937),Comedy|Drama|Romance,1937
+29335,"Oh, Mr. Porter! (1937)",Comedy,1937
+29442,The Prisoner of Zenda (1937),Adventure|Drama|Romance,1937
+29453,Pépé le Moko (1937),Crime|Drama|Romance,1937
+29499,Rosalie (1937),Drama|Musical,1937
+29539,Seventh Heaven (1937),Drama|Romance,1937
+29546,Shall We Dance (1937),Comedy|Musical|Romance,1937
+29557,Shukujo wa nani o wasureta ka (1937),Comedy|Drama,1937
+29583,Snow White and the Seven Dwarfs (1937),Animation|Family|Fantasy|Musical|Romance,1937
+29594,Spaansche aarde (1937),Documentary|War,1937
+29604,Stage Door (1937),Comedy|Drama,1937
+29606,A Star Is Born (1937),Drama,1937
+29608,Stella Dallas (1937),Drama|Romance,1937
+29611,Storm in a Teacup (1937),Comedy|Romance,1937
+29658,They Won't Forget (1937),Drama|Film-Noir|Mystery,1937
+29671,The Ticket of Leave Man (1937),Crime|Drama|Thriller,1937
+29682,Topper (1937),Comedy|Fantasy|Romance,1937
+29725,Varsity Show (1937),Musical,1937
+29747,Way Out West (1937),Comedy|Family|Western,1937
+29772,Whom the Gods Love: The Original Story of Mozart and His Wife (1936),Drama,1936
+29808,You Only Live Once (1937),Crime|Drama|Film-Noir,1937
+29811,Young and Innocent (1937),Crime|Mystery|Romance|Thriller,1937
+29843,The Adventures of Robin Hood (1938),Action|Adventure|Romance,1938
+29844,The Adventures of Tom Sawyer (1938),Adventure|Drama|Family,1938
+29850,Aleksandr Nevskiy (1938),Action|Biography|Drama,1938
+29861,Haar grootste offer (1938),Comedy|Drama|Romance,1938
+29864,The Amazing Dr. Clitterhouse (1938),Crime|Drama,1938
+29870,Angels with Dirty Faces (1938),Crime|Drama|Film-Noir|Thriller,1938
+29892,The Bad Man of Brimstone (1937),Western,1937
+29923,Block-Heads (1938),Comedy|War,1938
+29942,Boys Town (1938),Biography|Drama,1938
+29947,Bringing Up Baby (1938),Comedy|Family|Romance,1938
+29957,La bête humaine (1938),Crime|Drama|Film-Noir,1938
+29989,Child Bride (1938),Drama,1938
+29992,A Christmas Carol (1938),Drama|Family|Fantasy,1938
+30127,De vrouw van de bakker (1938),Comedy|Drama,1938
+30149,Four Daughters (1938),Drama|Music|Romance,1938
+30174,The Gaunt Stranger (1938),Drama|Mystery,1938
+30231,Hey! Hey! U.S.A! (1938),Comedy,1938
+30241,Holiday (1938),Comedy|Romance,1938
+30265,If I Were King (1938),Adventure|History,1938
+30287,Een gevaarlijke vrouw (1938),Drama|Romance,1938
+30341,The Lady Vanishes (1938),Mystery|Thriller,1938
+30372,My Irish Molly (1938),Musical,1938
+30413,Mannequin (1937),Drama,1937
+30489,Na granitse (1938),Drama|War,1938
+30518,Old Bones of the River (1938),Comedy,1938
+30522,Olympia 1. Teil - Fest der Völker (1938),Documentary|Sport,1938
+30523,Olympia 2. Teil - Fest der Schönheit (1938),Documentary|Sport,1938
+30569,Penny Paradise (1938),Comedy,1938
+30637,Pygmalion (1938),Comedy|Drama|Romance,1938
+30643,Le quai des brumes (1938),Crime|Drama|Romance|Thriller,1938
+30657,Rebecca of Sunnybrook Farm (1938),Comedy|Drama|Family|Musical,1938
+30714,Santa Fe Stampede (1938),Western,1938
+30732,Service de Luxe (1938),Comedy,1938
+30744,The Shopworn Angel (1938),Drama|Romance|War,1938
+30746,St. Martin's Lane (1938),Comedy,1938
+30754,Sinners in Paradise (1938),Drama,1938
+30824,Swiss Miss (1938),Comedy|Musical,1938
+30848,Test Pilot (1938),Drama|Romance,1938
+30879,Too Hot to Handle (1938),Adventure|Comedy|Drama|Romance,1938
+30922,Vacation from Love (1938),Comedy,1938
+30944,Vivacious Lady (1938),Comedy|Romance,1938
+30993,You Can't Take It with You (1938),Comedy|Drama|Romance,1938
+31022,The Adventures of Sherlock Holmes (1939),Crime|Mystery|Thriller,1939
+31054,Arrest Bulldog Drummond (1939),Adventure|Sci-Fi,1939
+31055,The Arsenal Stadium Mystery (1939),Comedy|Crime|Sport,1939
+31058,Ask a Policeman (1939),Adventure|Comedy|Crime,1939
+31060,At the Circus (1939),Comedy|Musical,1939
+31066,Babes in Arms (1939),Comedy|Musical,1939
+31067,Bachelor Mother (1939),Comedy|Romance,1939
+31072,Bad Little Angel (1939),Drama,1939
+31084,Battement de coeur (1940),Comedy|Drama,1940
+31088,Beau Geste (1939),Action|Adventure|Drama|War,1939
+31143,The Cat and the Canary (1939),Comedy|Horror|Mystery|Thriller,1939
+31147,Charlie Chan at Treasure Island (1939),Comedy|Crime|Horror|Mystery|Thriller,1939
+31152,Cheer Boys Cheer (1939),Comedy,1939
+31173,Confessions of a Nazi Spy (1939),Drama|War,1939
+31178,Convict 99 (1938),Comedy,1938
+31210,Dark Victory (1939),Drama|Romance,1939
+31225,Destry Rides Again (1939),Comedy|Western,1939
+31229,The Devil's Daughter (1939),Drama|Horror,1939
+31235,Dodge City (1939),Western,1939
+31252,Drums Along the Mohawk (1939),Drama|History|Romance|War|Western,1939
+31289,The Face at the Window (1939),Drama|Horror,1939
+31322,The Flying Deuces (1939),Comedy|War,1939
+31334,The Four Feathers (1939),Adventure|Drama|Romance|War,1939
+31359,Gaslight (1940),Thriller,1940
+31381,Gone with the Wind (1939),Drama|History|Romance|War,1939
+31385,"Goodbye, Mr. Chips (1939)",Drama|Romance,1939
+31394,The Green Hornet (1940),Adventure|Crime|Drama,1940
+31398,Gunga Din (1939),Adventure|Comedy|War,1939
+31442,Honolulu (1939),Comedy|Musical|Romance,1939
+31448,The Hound of the Baskervilles (1939),Horror|Mystery|Thriller,1939
+31455,The Hunchback of Notre Dame (1939),Drama|Horror|Romance,1939
+31473,Idiot's Delight (1939),Comedy|Drama|Musical,1939
+31477,In Name Only (1939),Drama|Romance,1939
+31505,Jamaica Inn (1939),Adventure|Crime,1939
+31514,Le jour se lève (1939),Crime|Drama|Romance|Thriller,1939
+31516,Juarez (1939),Biography|Drama|History|Romance,1939
+31536,King of the Underworld (1939),Crime|Drama|Romance,1939
+31575,The Lion Has Wings (1939),Drama|War,1939
+31580,The Little Princess (1939),Comedy|Drama|Family|Musical,1939
+31602,Made for Each Other (1939),Comedy|Drama|Romance,1939
+31614,The Man They Could Not Hang (1939),Crime|Horror|Sci-Fi,1939
+31647,Midnight (1939),Comedy|Romance,1939
+31650,The Mikado (1939),Musical|Comedy,1939
+31679,Mr. Smith Goes to Washington (1939),Comedy|Drama,1939
+31680,Mr. Wong in Chinatown (1939),Mystery,1939
+31725,Ninotchka (1939),Comedy|Romance,1939
+31742,Of Mice and Men (1939),Drama,1939
+31746,"Oily to Bed, Oily to Rise (1939)",Comedy|Short,1939
+31747,The Oklahoma Kid (1939),Action|Adventure|History|Western,1939
+31750,The Old Maid (1939),Drama,1939
+31754,On Borrowed Time (1939),Comedy|Drama|Fantasy,1939
+31762,Only Angels Have Wings (1939),Adventure|Drama|Romance,1939
+31796,The Phantom Creeps (1939),Sci-Fi,1939
+31804,Poison Pen (1939),Drama,1939
+31826,The Private Lives of Elizabeth and Essex (1939),Biography|Drama|History,1939
+31828,The Proud Valley (1940),Drama|Music,1940
+31831,Q Planes (1939),Comedy|Drama|Mystery,1939
+31842,The Real Glory (1939),History|War,1939
+31851,The Return of Doctor X (1939),Horror|Mystery|Sci-Fi,1939
+31867,The Roaring Twenties (1939),Action|Crime|Drama|Film-Noir|Music|Thriller,1939
+31877,Rose of Washington Square (1939),Drama|Musical|Romance,1939
+31885,La règle du jeu (1939),Comedy|Drama,1939
+31951,Son of Frankenstein (1939),Drama|Horror|Sci-Fi,1939
+31968,The Spy in Black (1939),Thriller|War,1939
+31971,Stagecoach (1939),Adventure|Drama|Western,1939
+31983,The Story of Vernon and Irene Castle (1939),Biography|Drama|Musical|Romance|War,1939
+32007,Tarzans's verbanning (1939),Action|Adventure|Family|Romance,1939
+32045,Torchy Runs for Mayor (1939),Action|Adventure|Comedy,1939
+32110,The Ware Case (1938),Drama|Mystery,1938
+32125,Where's That Fire? (1939),Comedy,1939
+32138,The Wizard of Oz (1939),Adventure|Family|Fantasy|Musical,1939
+32143,The Women (1939),Comedy|Drama,1939
+32145,Wuthering Heights (1939),Drama|Romance,1939
+32153,You Can't Get Away with Murder (1939),Crime|Drama|Film-Noir,1939
+32154,Young Man's Fancy (1939),Comedy,1939
+32155,Young Mr. Lincoln (1939),Biography|Drama,1939
+32156,Zangiku monogatari (1939),Drama|Romance,1939
+32194,"All This, and Heaven Too (1940)",Drama|Romance,1940
+32215,The Ape (1940),Horror,1940
+32234,The Bank Dick (1940),Comedy,1940
+32245,Before I Hang (1940),Crime|Horror|Sci-Fi,1940
+32258,Black Friday (1940),Crime|Drama|Horror,1940
+32285,Brother Orchid (1940),Comedy|Crime|Drama|Romance,1940
+32290,Buck Rogers (1939),Adventure|Family|Fantasy,1939
+32338,Christmas in July (1940),Comedy|Romance,1940
+32339,A Chump at Oxford (1940),Comedy,1940
+32349,Comrade X (1940),Comedy|Romance,1940
+32366,Crimes at the Dark House (1940),Drama,1940
+32376,"Dance, Girl, Dance (1940)",Comedy|Drama|Musical,1940
+32390,The Devil Bat (1940),Horror|Sci-Fi,1940
+32432,"Edison, the Man (1940)",Biography|Drama,1940
+32455,Fantasia (1940),Animation|Family|Fantasy|Music,1940
+32484,Foreign Correspondent (1940),Action|Romance|Thriller|War,1940
+32520,The Ghost Breakers (1940),Comedy|Horror|Mystery,1940
+32536,Go West (1940),Comedy|Musical|Western,1940
+32551,The Grapes of Wrath (1940),Drama|History,1940
+32553,The Great Dictator (1940),Comedy|Drama|War,1940
+32554,The Great McGinty (1940),Comedy,1940
+32559,The Green Hornet Strikes Again! (1940),Action|Adventure|Crime,1940
+32599,His Girl Friday (1940),Comedy|Drama|Romance,1940
+32609,The House Across the Bay (1940),Crime|Drama,1940
+32610,The House of the Seven Gables (1940),Drama|Film-Noir|Thriller,1940
+32611,How High Is Up? (1940),Comedy|Short,1940
+32635,The Invisible Man Returns (1940),Drama|Horror|Mystery|Sci-Fi|Thriller,1940
+32636,Invisible Stripes (1939),Crime|Drama|Film-Noir,1939
+32637,The Invisible Woman (1940),Comedy|Romance|Sci-Fi,1940
+32638,Irene (1940),Comedy|Musical|Romance,1940
+32643,It All Came True (1940),Comedy|Crime|Drama|Musical|Romance,1940
+32651,Johnny Apollo (1940),Crime|Drama|Film-Noir,1940
+32676,Knute Rockne All American (1940),Biography|Drama|Sport,1940
+32701,The Letter (1940),Crime|Drama|Film-Noir|Mystery|Romance,1940
+32762,The Mark of Zorro (1940),Action|Adventure|Romance|Western,1940
+32811,The Mortal Storm (1940),Drama,1940
+32818,The Mummy's Hand (1940),Adventure|Fantasy|Horror,1940
+32828,My Little Chickadee (1940),Comedy|Western,1940
+32829,My Love Came Back (1940),Comedy|Drama|Music,1940
+32842,Night Train to Munich (1940),Thriller|War,1940
+32863,The Old South (1940),Short|History,1940
+32873,One Night in the Tropics (1940),Comedy|Music,1940
+32881,Our Town (1940),Drama|Romance,1940
+32903,Phantom of Chinatown (1940),Action|Crime|Drama|Mystery|Romance,1940
+32904,The Philadelphia Story (1940),Comedy|Romance,1940
+32910,Pinocchio (1940),Animation|Comedy|Family|Fantasy|Musical,1940
+32943,Tweestrijd der gevoelens (1940),Drama|Romance,1940
+32946,Primrose Path (1940),Drama|Romance,1940
+32976,Rebecca (1940),Drama|Mystery|Romance|Thriller,1940
+32981,Remember the Night (1940),Comedy|Drama|Romance,1940
+33022,Saps at Sea (1940),Comedy,1940
+33028,The Sea Hawk (1940),Action|Adventure|History|Romance,1940
+33029,Second Chorus (1940),Comedy|Romance|Musical,1940
+33031,The Four Just Men (1939),Thriller|Drama|Mystery,1939
+33045,The Shop Around the Corner (1940),Comedy|Drama|Romance,1940
+33105,Strange Cargo (1940),Adventure|Drama|Romance,1940
+33107,Stranger on the Third Floor (1940),Crime|Drama|Film-Noir,1940
+33149,They Drive by Night (1940),Crime|Drama|Film-Noir|Thriller,1940
+33152,The Thief of Bagdad (1940),Adventure|Family|Fantasy,1940
+33234,Wagon Train (1940),Comedy|Drama|History|Romance|Western,1940
+33253,The Westerner (1940),Drama|Romance|Western,1940
+33281,You Nazty Spy! (1940),Comedy|Short,1940
+33313,Across the Sierras (1941),Action|Music|Romance,1941
+33317,Adventures of Captain Marvel (1941),Action|Adventure|Fantasy|Sci-Fi,1941
+33373,Ball of Fire (1941),Comedy|Romance,1941
+33382,Bedtime Story (1941),Comedy|Romance,1941
+33398,Black Sheep of Whitehall (1942),Comedy,1942
+33432,The Bride Came C.O.D. (1941),Biography|Comedy|Romance,1941
+33436,Buck Privates (1941),Comedy|Musical|War,1941
+33455,Caught in the Draft (1941),Comedy|Romance|War,1941
+33467,Citizen Kane (1941),Drama|Mystery,1941
+33477,Come Live with Me (1941),Comedy|Romance,1941
+33517,A Date with the Falcon (1942),Crime|Drama|Mystery,1942
+33533,The Devil and Miss Jones (1941),Comedy|Romance,1941
+33553,Dr. Jekyll and Mr. Hyde (1941),Horror|Sci-Fi,1941
+33558,Dressed to Kill (1941),Crime|Film-Noir|Mystery,1941
+33563,Dumbo (1941),Animation|Drama|Family|Musical,1941
+33627,49th Parallel (1941),Drama|War|Thriller,1941
+33650,The Gay Falcon (1941),Crime|Drama|Mystery|Romance,1941
+33651,The Gay Parisian (1941),Short|Musical|Romance,1941
+33661,The Ghost of St. Michael's (1941),Comedy,1941
+33676,Great Guns (1941),Comedy|Romance|War,1941
+33677,The Great Lie (1941),Drama,1941
+33712,Here Comes Mr. Jordan (1941),Comedy|Fantasy|Romance,1941
+33717,High Sierra (1941),Action|Adventure|Crime|Drama|Film-Noir|Thriller,1941
+33723,Hold That Ghost (1941),Adventure|Comedy|Music|Mystery|Thriller,1941
+33729,How Green Was My Valley (1941),Drama|Family,1941
+33739,I Thank You (1941),Comedy,1941
+33740,I Wake Up Screaming (1941),Crime|Drama|Film-Noir|Mystery|Romance|Thriller,1941
+33754,In the Navy (1941),Comedy|Musical|Romance,1941
+33774,Johnny Eager (1941),Crime|Film-Noir|Thriller,1941
+33787,King of the Zombies (1941),Adventure|Comedy|Horror,1941
+33804,The Lady Eve (1941),Comedy|Romance,1941
+33821,Law of the Tropics (1941),Drama|Romance,1941
+33836,The Little Foxes (1941),Drama|Romance,1941
+33849,The Lone Wolf Takes a Chance (1941),Drama|Mystery,1941
+33867,Maisie Was a Lady (1941),Comedy|Drama,1941
+33870,The Maltese Falcon (1941),Film-Noir|Mystery,1941
+33871,A Man Betrayed (1941),Comedy|Crime|Drama|Romance,1941
+33873,Man Hunt (1941),Drama|Thriller|War,1941
+33874,The Man Who Came to Dinner (1942),Comedy|Romance,1942
+33879,Man Made Monster (1941),Drama|Horror|Sci-Fi,1941
+33891,Meet John Doe (1941),Comedy|Drama|Romance,1941
+33902,Men of Boys Town (1941),Drama,1941
+33922,Mr. &amp; Mrs. Smith (1941),Comedy|Romance,1941
+33945,Never Give a Sucker an Even Break (1941),Comedy|Musical,1941
+33948,"Ni sangre, ni arena (1941)",Comedy,1941
+34012,Penny Serenade (1941),Drama|Romance,1941
+34091,The Reluctant Dragon (1941),Animation|Comedy|Family,1941
+34167,Sergeant York (1941),Biography|Drama|History|Romance|War,1941
+34175,The Shanghai Gesture (1941),Crime|Drama|Film-Noir|Mystery|Romance,1941
+34198,Skylark (1941),Comedy|Romance,1941
+34204,The Smiling Ghost (1941),Comedy|Mystery,1941
+34224,Spooks Run Wild (1941),Horror|Comedy,1941
+34232,Steel Against the Sky (1941),Action|Adventure|Comedy|Drama|Romance,1941
+34236,The Strawberry Blonde (1941),Comedy|Romance,1941
+34240,Sullivan's Travels (1941),Adventure|Comedy|Drama|Romance,1941
+34248,Suspicion (1941),Mystery|Thriller,1941
+34274,That Uncertain Feeling (1941),Comedy,1941
+34298,Todake no kyodai (1941),Drama,1941
+34303,Topper Returns (1941),Comedy|Fantasy|Mystery|Romance,1941
+34384,Western Union (1941),History|Western,1941
+34386,When Ladies Meet (1941),Comedy|Drama|Romance,1941
+34398,The Wolf Man (1941),Horror,1941
+34399,A Woman&x27;s Face (1941),Drama|Film-Noir|Thriller,1941
+34409,You'll Never Get Rich (1941),Comedy|Musical|Romance,1941
+34428,Across the Pacific (1942),Action|Adventure|Drama|Romance|War,1942
+34433,The Affairs of Martha (1942),Comedy|Romance,1942
+34445,Alias Boston Blackie (1942),Drama|Mystery,1942
+34449,All Through the Night (1942),Action|Comedy|Crime|Drama|Thriller|War,1942
+34458,Andy Hardy's Double Life (1942),Comedy|Family|Romance,1942
+34465,Arabian Nights (1942),Action|Adventure|Comedy,1942
+34478,L'assassin habite... au 21 (1942),Comedy|Crime|Mystery|Thriller,1942
+34492,Bambi (1942),Animation|Drama|Family,1942
+34493,I bambini ci guardano (1944),Drama,1944
+34513,The Big Shot (1942),Crime|Drama|Film-Noir|Thriller,1942
+34514,The Big Street (1942),Drama|Music|Romance,1942
+34522,The Black Swan (1942),Action|Adventure|Drama|Family|History|Romance,1942
+34540,The Boogie Man Will Get You (1942),Comedy|Horror,1942
+34546,Bowery at Midnight (1942),Crime|Thriller,1942
+34583,Casablanca (1942),Drama|Romance|War,1942
+34586,Castle in the Desert (1942),Comedy|Crime|Mystery|Thriller,1942
+34587,Cat People (1942),Fantasy|Horror|Thriller,1942
+34591,Chichi ariki (1942),Drama,1942
+34618,The Courtship of Andy Hardy (1942),Comedy,1942
+34646,Desperate Journey (1942),Action|Adventure|Drama|War,1942
+34681,Dr. Renault's Secret (1942),Horror|Mystery|Romance,1942
+34694,De greep des doods (1943),Drama|War,1943
+34711,Eyes in the Night (1942),Crime|Mystery,1942
+34716,The Falcon Takes Over (1942),Crime|Mystery|Thriller,1942
+34717,The Falcon's Brother (1942),Crime|Drama|Mystery,1942
+34734,The First of the Few (1942),Adventure|Biography|Drama|War,1942
+34742,De vliegende tijgers (1942),Action|Drama|Romance|War,1942
+34753,Fraidy Cat (1942),Animation|Short|Comedy|Family,1942
+34754,Freckles Comes Home (1942),Action|Comedy|Crime,1942
+34778,Gentleman Jim (1942),Biography|Drama|Romance|Sport,1942
+34784,Get Hep to Love (1942),Drama|Musical,1942
+34786,The Ghost of Frankenstein (1942),Drama|Horror|Sci-Fi,1942
+34798,The Glass Key (1942),Crime|Drama|Film-Noir|Thriller,1942
+34801,The Goose Steps Out (1942),Comedy,1942
+34810,The Great Gildersleeve (1942),Comedy,1942
+34856,Hitler's Children (1943),Drama|Romance,1943
+34862,Holiday Inn (1942),Comedy|Drama|Music|Musical|Romance,1942
+34881,I Married a Witch (1942),Comedy|Fantasy|Romance,1942
+34883,I Was Framed (1942),Action|Adventure|Crime,1942
+34890,In This Our Life (1942),Drama,1942
+34891,In Which We Serve (1942),Drama|War,1942
+34902,Invisible Agent (1942),Adventure|Comedy|Romance|Sci-Fi|War,1942
+34922,Journey Into Fear (1943),Drama|Film-Noir|Thriller,1943
+34936,Keeper of the Flame (1942),Drama|Mystery,1942
+34946,Kings Row (1942),Drama|Mystery|Romance,1942
+34978,Listen to Britain (1942),Documentary|Short,1942
+34985,The Living Ghost (1942),Horror|Mystery|Thriller,1942
+35013,The Magic of Make-up (1942),Documentary,1942
+35015,The Magnificent Ambersons (1942),Drama|Romance,1942
+35017,La main du diable (1943),Fantasy|Horror,1943
+35018,Maisie Gets Her Man (1942),Comedy|Romance,1942
+35019,The Major and the Minor (1942),Comedy|Romance,1942
+35047,Matri-Phony (1942),Short|Comedy,1942
+35082,Moontide (1942),Crime|Drama|Film-Noir,1942
+35093,Mrs. Miniver (1942),Drama|Romance|War,1942
+35096,The Mummy's Tomb (1942),Drama|Fantasy|Horror|Mystery|Thriller,1942
+35103,My Gal Sal (1942),Biography|Comedy|Musical,1942
+35105,My Sister Eileen (1942),Comedy,1942
+35140,"Now, Voyager (1942)",Drama|Romance,1942
+35151,Once Upon a Honeymoon (1942),Adventure|Comedy|Drama,1942
+35153,One of Our Aircraft Is Missing (1942),Action|Adventure|Drama|War,1942
+35160,Ossessione (1943),Crime|Drama|Romance,1943
+35169,The Palm Beach Story (1942),Comedy|Romance,1942
+35209,Prelude to War (1942),Documentary|War,1942
+35211,The Pride of the Yankees (1942),Biography|Drama|Romance|Sport,1942
+35238,Random Harvest (1942),Drama|Romance,1942
+35252,Ride 'Em Cowboy (1942),Comedy|Western|Musical,1942
+35262,Road to Morocco (1942),Adventure|Comedy|Family|Musical|Romance,1942
+35272,Roxie Hart (1942),Comedy|Crime|Romance,1942
+35279,Saboteur (1942),Thriller|War,1942
+35308,Seven Miles from Alcatraz (1942),Action|Drama|Thriller,1942
+35317,Sherlock Holmes and the Secret Weapon (1942),Adventure|Crime|Drama|Mystery|Thriller,1942
+35318,Sherlock Holmes and the Voice of Terror (1942),Crime|Film-Noir|Mystery|Thriller,1942
+35320,Ship Ahoy (1942),Comedy|Musical|Romance,1942
+35369,The Spoilers (1942),Drama|Western,1942
+35417,The Talk of the Town (1942),Comedy|Drama|Romance|Thriller,1942
+35421,Ten Gentlemen from West Point (1942),Drama,1942
+35423,Kate &amp; Leopold (2001),Comedy|Fantasy|Romance,2001
+35429,Went the Day Well? (1942),Thriller|War,1942
+35432,This Gun for Hire (1942),Crime|Drama|Film-Noir|Thriller,1942
+35446,To Be or Not to Be (1942),Comedy|War,1942
+35521,Les visiteurs du soir (1942),Drama|Fantasy|Romance,1942
+35537,We Were Dancing (1942),Comedy|Romance,1942
+35567,Woman of the Year (1942),Comedy|Drama|Romance|Sport,1942
+35575,Yankee Doodle Dandy (1942),Biography|Drama|Musical,1942
+35583,You Were Never Lovelier (1942),Comedy|Musical|Romance,1942
+35605,Above Suspicion (1943),Drama|Thriller,1943
+35608,Action in the North Atlantic (1943),Action|Drama|War,1943
+35616,Air Force (1943),Action|Drama|History|War,1943
+35640,The Ape Man (1943),Action|Drama|Horror|Sci-Fi|Thriller,1943
+35671,The Bells Go Down (1943),Drama|War,1943
+35703,Cabin in the Sky (1943),Musical|Fantasy,1943
+35733,Chicken Little (1943),Comedy|Family|Animation,1943
+35751,The Constant Nymph (1943),Drama|Music|Romance,1943
+35753,Le corbeau (1943),Crime|Drama|Mystery|Thriller,1943
+35769,The Cross of Lorraine (1943),War|Drama,1943
+35771,The Crystal Ball (1943),Comedy,1943
+35798,The Desperadoes (1943),Action|Comedy|Romance|Western,1943
+35799,Destination Tokyo (1943),Adventure|History|War,1943
+35807,Distinto amanecer (1943),Drama|Thriller|Romance,1943
+35854,The Falcon Strikes Back (1943),Crime|Drama|Mystery,1943
+35855,The Falcon and the Co-eds (1943),Crime|Mystery|Drama,1943
+35856,The Falcon in Danger (1943),Crime|Mystery|War,1943
+35881,Fires Were Started (1943),Drama|War,1943
+35884,Five Graves to Cairo (1943),Thriller|War,1943
+35896,For Whom the Bell Tolls (1943),Adventure|Drama|History|Romance|War,1943
+35899,Frankenstein Meets the Wolf Man (1943),Fantasy|Horror|Sci-Fi,1943
+35940,Gildersleeve on Broadway (1943),Comedy,1943
+35957,Guadalcanal Diary (1943),Drama|War,1943

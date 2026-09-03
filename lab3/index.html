@@ -1,1 +1,37 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Lab 3</title><link rel="stylesheet" href="../css/style.css"></head><body><main class="page-shell"><p class="eyebrow">STATS 401</p><h1>Lab 3</h1><p class="intro">Lab 3 will be added here.</p><p><a href="../index.html">← Back to home</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Movie Data Acquisition</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .table-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { padding: .7rem; border-bottom: 1px solid #d9d9d9; text-align: left; }
+        th { cursor: pointer; background: #f2f5f8; }
+        th:hover { background: #e4ebf1; }
+    </style>
+</head>
+<body>
+    <main class="page-shell">
+        <p class="eyebrow">STATS 401</p>
+        <h1>Lab 3: Web Data Acquisition</h1>
+        <p class="intro">A sortable collection of 1,000 movie records.</p>
+
+        <h2>Dataset</h2>
+        <p>This dataset contains movie titles, genres, release years, and MovieTweetings identifiers.</p>
+        <p><strong>Source:</strong> <a href="https://github.com/sidooms/MovieTweetings" target="_blank" rel="noopener">MovieTweetings public movie dataset</a></p>
+        <p><strong>Method:</strong> Python <code>requests</code> downloaded the public dataset; <code>pandas</code> selected and prepared the records.</p>
+        <p><strong>Records collected:</strong> 1,000</p>
+        <p>Click a column heading to sort ascending; click it again to reverse the order.</p>
+
+        <div class="table-wrap">
+            <table id="data-table"><thead></thead><tbody></tbody></table>
+        </div>
+        <p><a href="../index.html">&larr; Back to home</a></p>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="movie_lab3.js"></script>
+</body>
+</html>
