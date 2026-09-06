@@ -1,0 +1,7 @@
+{
+  "paragraphs": [
+    "I analyzed a reproducible random sample of 1,500 tweets from the 10,876-row CrowdFlower/Figure Eight disaster dataset distributed on Kaggle. The source labels describe disaster relevance, not sentiment. I preserved the original text, decoded HTML entities, normalized whitespace, removed nonprinting control characters and 199 repeated texts, excluded ambiguous relevance labels, and marked missing locations and keywords as unknown. Rounded tweet IDs were retained only as source metadata; unique annotation IDs identify records.",
+    "I used Cardiff NLP’s Twitter RoBERTa sentiment model with lightly normalized mentions and URLs, preserving punctuation and negation. The largest class probability determines the label; the numeric score is P(positive) minus P(negative). The stacked bars encode relevance by row, sentiment by color, and within-group percentage by width. Negative predictions account for 44.2% of disaster-related tweets versus 37.3% of unrelated tweets. Positive predictions represent 3.5% and 18.7%, respectively. These are model estimates, not ground truth; sarcasm, source encoding artifacts, and the dataset’s keyword-based selection limit interpretation and generalization to Twitter overall."
+  ],
+  "word_count": 161
+}

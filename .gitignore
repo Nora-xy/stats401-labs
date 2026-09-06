@@ -1,2 +1,5 @@
 .DS_Store
 Thumbs.db
+.lab4-deps/
+.lab4-cache/
+__pycache__/

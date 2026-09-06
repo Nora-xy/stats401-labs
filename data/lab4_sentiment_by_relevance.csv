@@ -1,0 +1,7 @@
+disaster_relevance,sentiment,count,total,proportion
+Disaster-related,Negative,280,633,0.4423380726698262
+Disaster-related,Neutral,331,633,0.5229067930489731
+Disaster-related,Positive,22,633,0.03475513428120063
+Not disaster-related,Negative,323,867,0.37254901960784315
+Not disaster-related,Neutral,382,867,0.4405997693194925
+Not disaster-related,Positive,162,867,0.18685121107266436

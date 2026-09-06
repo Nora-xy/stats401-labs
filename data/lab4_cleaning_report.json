@@ -1,0 +1,68 @@
+{
+  "source_rows": 10876,
+  "source_sha256": "9c6e3d4312d0ae54b9197f2d06fcf44f09936bc78a14ff07902d1d59c9e857c5",
+  "missing_before": {
+    "_unit_id": 0,
+    "_golden": 0,
+    "_unit_state": 0,
+    "_trusted_judgments": 0,
+    "_last_judgment_at": 84,
+    "choose_one": 0,
+    "choose_one:confidence": 0,
+    "choose_one_gold": 10789,
+    "keyword": 87,
+    "location": 3638,
+    "text": 0,
+    "tweetid": 0,
+    "userid": 87
+  },
+  "exact_duplicates": 0,
+  "repeated_source_tweet_ids": 9633,
+  "source_control_character_rows": 901,
+  "sample_seed": 401,
+  "model": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+  "model_revision": "3216a57f2a0d9c45a2e6c20157c20c49fb4bf9c7",
+  "empty_text_removed": 0,
+  "duplicate_record_ids_removed": 0,
+  "duplicate_clean_text_removed": 199,
+  "ambiguous_relevance_removed": 15,
+  "invalid_annotation_confidence": 0,
+  "eligible_rows": 10662,
+  "sample_rows": 1500,
+  "relevance_counts": {
+    "Not disaster-related": 867,
+    "Disaster-related": 633
+  },
+  "tfidf_shape": [
+    1500,
+    1795
+  ],
+  "empty_clean_text_rows": 0,
+  "sentiment_counts": {
+    "Neutral": 713,
+    "Negative": 603,
+    "Positive": 184
+  },
+  "mean_sentiment_by_relevance": {
+    "Disaster-related": -0.36543260435985714,
+    "Not disaster-related": -0.13084418969344339
+  },
+  "missing_after": {
+    "record_id": 0,
+    "source_tweet_id": 0,
+    "tweet_text_raw": 0,
+    "tweet_text": 0,
+    "text_clean": 0,
+    "sentiment_text": 0,
+    "keyword": 0,
+    "location": 0,
+    "disaster_relevance": 0,
+    "annotation_confidence": 0,
+    "sentiment_negative": 0,
+    "sentiment_neutral": 0,
+    "sentiment_positive": 0,
+    "sentiment": 0,
+    "sentiment_score": 0,
+    "model_confidence": 0
+  }
+}

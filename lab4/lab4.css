@@ -1,0 +1,49 @@
+.page-shell { max-width: 1080px; }
+.eyebrow { color: #385e70; font-size: .875rem; }
+h1 { max-width: 900px; }
+.intro { margin-bottom: 2rem; font-size: 1.125rem; }
+.chart-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.chart-heading h2 { font-size: 1.4rem; margin-bottom: .5rem; }
+.chart-heading p, .chart-description { color: #4b5563; line-height: 1.6; }
+.chart-heading p { margin: 0; }
+.model-tag { flex-shrink: 0; padding: .45rem .7rem; border: 1px solid #dbe2ea; border-radius: 6px; font-size: .875rem; }
+.sentiment-legend { display: flex; flex-wrap: wrap; gap: 1.5rem; list-style: none; padding: 0; margin: 1.5rem 0 .75rem; }
+.sentiment-legend li { display: flex; align-items: center; gap: .5rem; }
+.swatch { width: 16px; height: 16px; border-radius: 2px; display: inline-block; }
+.negative { background: #a74336; }
+.neutral { background: #54657a; }
+.positive { background: #147a70; }
+.chart-description { margin: .5rem 0 1rem; }
+#chart { min-height: 290px; }
+#chart svg { width: 100%; }
+#chart .tick text { font-size: 14px; fill: #475569; }
+#chart .domain { display: none; }
+#chart .tick line { stroke: #dbe2ea; }
+.segment { cursor: pointer; }
+.segment:hover, .segment:focus { stroke: #111827; stroke-width: 3px; outline: none; }
+.segment-label { fill: #fff; font-size: 16px; font-weight: 700; pointer-events: none; text-anchor: middle; }
+.group-label { font-size: 17px; font-weight: 700; fill: #1f2937; }
+.group-count { font-size: 14px; fill: #4b5563; text-anchor: end; }
+.chart-detail { min-height: 3rem; color: #334155; line-height: 1.5; border-left: 3px solid #82aabb; padding-left: 1rem; }
+summary { cursor: pointer; color: #284f69; padding: .5rem 0; }
+table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+caption { text-align: left; color: #475569; padding: .5rem 0; }
+th, td { border-bottom: 1px solid #dbe2ea; padding: .75rem .5rem; text-align: left; }
+th { background: #f2f5f8; }
+.table-wrap { overflow-x: auto; }
+.justification { margin-top: 2.5rem; }
+.justification p, .resources p { line-height: 1.75; }
+.resources { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #dbe2ea; }
+.resources h2 { font-size: 1.2rem; }
+.resource-links { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; list-style: none; padding: 0; line-height: 1.6; }
+a { color: #245775; text-underline-offset: 3px; }
+a:hover { color: #152f40; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #245775; outline-offset: 4px; }
+.back-link { margin-top: 2.5rem; }
+.error { color: #9b3029; }
+@media (max-width: 620px) {
+  .page-shell { padding: 28px 16px 40px; }
+  .chart-card { padding: 18px 14px; }
+  .chart-heading { flex-direction: column; }
+  .sentiment-legend { gap: 1rem; }
+}
