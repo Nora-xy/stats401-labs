@@ -1,1 +1,46 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Lab 5</title><link rel="stylesheet" href="../css/style.css"></head><body><main class="page-shell"><p class="eyebrow">STATS 401</p><h1>Lab 5</h1><p class="intro">Lab 5 will be added here.</p><p><a href="../index.html">← Back to home</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab 5: Interactive Network Visualization</title>
+<style>
+body { font: 16px/1.5 Arial, sans-serif; max-width: 1000px; margin: 24px auto; padding: 0 16px; color: #222; }
+.view { overflow-x: auto; } svg { display: block; }
+.nodes path { cursor: grab; stroke: #333; }
+.labels { pointer-events: none; font-size: 10px; }
+.tooltip { position: absolute; display: none; pointer-events: none; background: white; border: 1px solid #888; padding: 8px; white-space: pre-line; font-size: 14px; }
+#legend span { display: inline-block; margin-right: 16px; } #status { color: #a22222; }
+li { margin-bottom: 8px; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7" defer></script>
+<script src="lab5.js" defer></script>
+</head>
+<body>
+<a href="../index.html">Back to home</a>
+<h1>Lab 5: Interactive Network Visualization</h1>
+<p>A synthetic, undirected urban transit network: 50 stations and 50 direct connections.</p>
+<p id="status" role="status">Loading station and route data…</p>
+<h2>Node-link visualization</h2>
+<p>Drag stations to rearrange the graph. Hover over stations or routes for details and highlighting. Labels show station IDs; tooltips give full names. Positions are not geographic.</p>
+<div id="legend"></div>
+<div id="chart" class="view"></div>
+<h2>Node-link design</h2>
+<p>District determines node color; symbol area is proportional to daily passengers, emphasizing busy stations. Circles, diamonds, and squares distinguish Local, Transfer, and Terminal stations. Thicker links mean longer travel times, not stronger connections; dash patterns distinguish services. Dragging separates overlaps, hover highlights neighbors, and tooltips identify stations and routes.</p>
+<h2>Adjacency matrix</h2>
+<p>Gray cells mean no direct connection. Blue = Metro, orange = Express, purple = Shuttle; darker cells mean longer travel times. Hover for exact details.</p>
+<div id="matrix" class="view"></div>
+<h2>Matrix design</h2>
+<p>Rows and columns are ordered by district, then station number; colored labels identify districts. Symmetric filled cells show undirected connections. Cell color preserves service type and opacity encodes travel time. District boundaries expose within- and between-district patterns. Station tooltips retain passenger volume and function without crowding the cells.</p>
+<h2>Network questions and findings</h2>
+<ol id="findings">
+<li><strong>Central stations &mdash; Partially, node-link:</strong> neighbor highlighting identifies s4, s7, s10 and eleven others with maximum degree three. There is no dominant hub; degree does not measure shortest-path importance.</li>
+<li><strong>District connections &mdash; Well, matrix:</strong> the East&ndash;South blocks contain eleven unique connections, the most between districts. Symmetric cells represent each connection twice.</li>
+<li><strong>Station roles &mdash; Well, node-link:</strong> diamonds appear at branches and leaves (s47, s50). Terminal squares include branching stations (s4, s7) and isolated stations (s43, s46, s49); function does not determine degree.</li>
+<li><strong>Passenger volume &mdash; Well, node-link:</strong> s50, s49 and s48 have the largest symbol areas. Tooltips confirm 9,850, 9,677 and 9,504 daily passengers; high volume does not imply many connections.</li>
+<li><strong>Longest connections &mdash; Well, both:</strong> s7&ndash;s31 is the thickest link and darkest filled matrix pair. Its tooltip identifies an Express connection taking sixteen minutes.</li>
+<li><strong>Service concentrations &mdash; Partially, matrix:</strong> colored cells show Metro and Shuttle most frequently between East&ndash;South (four each). Express ties Central&ndash;North and East&ndash;West (four each). Services remain spread across several district pairs.</li>
+</ol>
+<div id="tooltip" class="tooltip" role="tooltip"></div>
+</body>
+</html>
