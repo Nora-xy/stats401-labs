@@ -1,0 +1,15 @@
+﻿:root { font-family: Arial, sans-serif; color: #202d38; background: #f7f8fa; line-height: 1.55; }
+body { margin: 0; } main { max-width: 1120px; margin: 32px auto; padding: 0 22px; }
+a { color: #245d83; } h1 { font-size: clamp(30px, 5vw, 48px); letter-spacing: -1.5px; margin: 8px 0; line-height: 1.15; }
+h2 { margin: 0 0 8px; font-size: 24px; } p { margin: 10px 0; } .eyebrow { margin-top: 32px; font-size: 12px; letter-spacing: 2px; font-weight: bold; }
+.intro { font-size: 20px; } section { margin: 28px 0; } .guide { padding: 20px; background: white; border: 1px solid #d5dce2; border-radius: 8px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 22px; } .key { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; } .swatch { width: 16px; height: 16px; border: 1px solid #53616b; display: inline-block; }
+.badge { display: inline-block; background: white; color: #17212c; border: 1px solid #53616b; border-radius: 3px; width: 20px; text-align: center; font-weight: bold; margin-left: 14px; }
+select { font: inherit; padding: 7px; margin: 8px; max-width: 100%; } .hint { font-size: 13px; color: #53616b; }
+.chart { overflow-x: auto; background: white; border: 1px solid #d5dce2; border-radius: 6px; } .chart svg { display: block; width: 100%; min-width: 850px; height: auto; }
+.cell-border { stroke: #d5dce2; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.country { cursor: help; } .country:focus { outline: none; } .country:hover > rect, .country:focus > rect { stroke: #526779; } svg text { pointer-events: none; fill: #101820; font-family: Arial, sans-serif; }
+details { margin: 18px 0; } summary { cursor: pointer; color: #245d83; } .region-legend { display: grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr)); gap: 14px; padding: 14px 0; } .region-legend .key { display: flex; margin: 5px 0; }
+.description { max-width: 900px; } .table-wrap { overflow: auto; } table { border-collapse: collapse; width: 100%; background: white; font-size: 14px; } th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #d5dce2; } footer { padding: 24px 0; font-size: 13px; }
+#tooltip { position: fixed; z-index: 10; max-width: 280px; background: #17212c; color: white; padding: 12px 15px; border-radius: 5px; pointer-events: none; white-space: pre-line; font-size: 14px; box-shadow: 0 3px 14px #0003; }
+@media (max-width: 600px) { main { padding: 0 14px; } .guide { padding: 14px; } select { display: block; margin-left: 0; } }

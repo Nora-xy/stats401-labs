@@ -1,1 +1,39 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Lab 6</title><link rel="stylesheet" href="../css/style.css"></head><body><main class="page-shell"><p class="eyebrow">STATS 401</p><h1>Lab 6</h1><p class="intro">Lab 6 will be added here.</p><p><a href="../index.html">← Back to home</a></p></main></body></html>
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 6: GDP Hierarchies</title>
+<link rel="stylesheet" href="lab6.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7" defer></script>
+<script src="lab6.js" defer></script>
+</head>
+<body><main>
+<a href="../index.html">← All labs</a>
+<p class="eyebrow">STATS 401 · LAB 06</p>
+<h1>One world, two treemaps</h1>
+<p class="intro">Comparing GDP through a continent → region → country hierarchy.</p>
+<p id="status" role="status">Loading GDP data…</p>
+<section class="guide" aria-label="Chart guide">
+<div id="continent-legend" class="legend" aria-label="Continent colors"></div>
+<p>Both maps use the same region shades within each continent’s hue. Shades identify regions; darker does not mean higher GDP or a different GDP status.</p>
+<details><summary>Region shade key — both maps</summary><div id="region-legend" class="region-legend"></div></details>
+<p><strong>GDP status:</strong> <span class="badge">↑</span> Increase <span class="badge">=</span> Unchanged <span class="badge">↓</span> Decrease</p>
+<p>Country rectangle area encodes GDP, with small gaps and label space. Subtle, uniform borders outline each level; nested groups, labels, and shades show the hierarchy. Hover, tap, or focus a country for its exact GDP and status.</p>
+<label for="scope"><strong>Compare a continent:</strong></label>
+<select id="scope"><option value="World">World — all continents</option></select>
+<p class="hint">Both maps use the same scope and canvas size. Choose a continent to inspect smaller countries; areas rescale within that view. On narrow screens, scroll each chart horizontally.</p>
+</section>
+<section><h2>01 / Squarify + region shades</h2>
+<p><strong>Squarify:</strong> like packing boxes in rows, choosing arrangements that keep rectangles close to square. Region shades help you follow the geographic groups.</p>
+<div id="treemap-one" class="chart"></div>
+</section>
+<section><h2>02 / Binary + region shades</h2>
+<p><strong>Binary:</strong> like cutting a sheet into two groups with roughly balanced GDP totals, then cutting each group again. Cuts are proportional to the groups’ GDP, so they need not be equal halves. The region shades match the first map.</p>
+<div id="treemap-two" class="chart"></div></section>
+<section class="description"><h2>Design description</h2>
+<p>I use distinct hues for continents to make the largest geographic groups easy to identify. Each continent contains non-overlapping region rectangles, which contain country rectangles. Country area encodes GDP, allowing approximate comparisons within each view; gaps and label space affect the visible areas. Separate ↑, =, and ↓ markers encode GDP status in both maps, and tooltips provide exact values.</p>
+<p>In both maps, I vary lightness within each continent’s hue to distinguish regions. The same region keeps the same shade across maps, making it easier to follow groups when their positions change. These shades identify categories, not higher or lower GDP. Borders and labels reinforce the hierarchy where similar shades are difficult to distinguish.</p>
+<p>Squarify packs rectangles into rows while favoring shapes close to squares, which often helps labels fit. Binary subdivision repeatedly divides space into two groups with roughly balanced GDP totals, producing a different arrangement. These cuts can separate countries within a region, so they do not always indicate regional boundaries. Both methods preserve the same geographic nesting. Keeping colors, data, canvas size, and padding consistent makes the effect of the subdivision method easier to compare; neither method is assumed to be universally more readable.</p></section>
+<details><summary>Exact country values</summary><div class="table-wrap"><table><thead><tr><th>Continent</th><th>Region</th><th>Country</th><th>GDP ($B)</th><th>Status</th></tr></thead><tbody id="values"></tbody></table></div></details>
+<footer>Source: <a href="../data/lab6_assignment_gdp.csv">provided CSV</a> · <a href="../data/lab6_assignment_gdp.json">hierarchical JSON</a> · <a href="convert_hierarchy.py">Python conversion</a></footer>
+</main><div id="tooltip" role="tooltip" hidden></div></body></html>
