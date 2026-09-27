@@ -1,0 +1,23 @@
+{
+  "title": "Bulletin of Duke Kunshan University Undergraduate Instruction",
+  "academic_year": "2023-2024",
+  "publication": "July 2023",
+  "source": "User-provided local PDF: ug_bulletin 2023-24.pdf",
+  "accessed": "2026-09-27",
+  "sha256": "08b1102189426925afb2808725203efcc942f732c99da9094afd6a1364f63cd5",
+  "pdf_pages": 509,
+  "raw_passages": 2139,
+  "clean_passages": 1312,
+  "formal_sections": 160,
+  "mean_words": 90.1920731707317,
+  "exclusions": {
+    "table_course_rows": 1624,
+    "table_header_lines": 6,
+    "incomplete_or_tabular_blocks": 599,
+    "short_blocks_under_20_words": 167,
+    "duplicate_blocks": 15,
+    "repeated_table_instructions": 58
+  },
+  "scope": "Substantive prose from the bulletin body (printed pages 10-508). Front matter, contents, small-print footnotes, table rows and instructions, incomplete blocks, duplicates and blocks under 20 words are excluded. Long blocks are divided at sentence boundaries. Not every source page yields a retained prose passage.",
+  "hierarchy": "Chapter is the bulletin Part; section is its first-level TOC heading, except Part 10 uses named majors and course subjects. Subsection preserves the most recent deeper heading or course title. The full TOC path is retained separately."
+}

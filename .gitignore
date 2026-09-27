@@ -3,3 +3,6 @@ Thumbs.db
 .lab4-deps/
 .lab4-cache/
 __pycache__/
+.lab8-deps/
+.lab8-cache/
+.lab8-runtime/

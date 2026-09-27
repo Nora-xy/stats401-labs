@@ -1,0 +1,21 @@
+﻿const fs=require('fs'),assert=require('assert'),{JSDOM}=require('../.lab8-cache/test/node_modules/jsdom');
+const root=require('path').resolve(__dirname,'..'), data=JSON.parse(fs.readFileSync(root+'/data/lab8/explorer.json','utf8'));
+const dom=new JSDOM(fs.readFileSync(__dirname+'/index.html','utf8'),{url:'http://localhost:8000/lab8/',runScripts:'outside-only',pretendToBeVisual:true});
+const w=dom.window;w.fetch=async()=>({ok:true,json:async()=>data});w.SVGElement.prototype.getBBox=()=>({x:0,y:0,width:620,height:500});
+Object.defineProperty(w.SVGElement.prototype,'viewBox',{get(){return {baseVal:{x:0,y:0,width:620,height:500}}}});
+w.Element.prototype.scrollIntoView=()=>{};
+w.eval(fs.readFileSync(root+'/lab4/vendor/d3.v7.min.js','utf8'));w.eval(fs.readFileSync(__dirname+'/lab8.js','utf8'));
+setTimeout(()=>{try{
+const doc=w.document,q=s=>doc.querySelector(s),all=s=>[...doc.querySelectorAll(s)],highlighted=()=>all('.passage').filter(p=>+p.getAttribute('opacity')>.5).length;
+assert.equal(all('.passage').length,data.passages.length);assert.equal(all('#matrix tbody button').length,data.sections.length*8);assert.equal(all('.finding').length,4);
+const search=q('#search');search.value='credit';search.dispatchEvent(new w.Event('input'));assert.equal(highlighted(),data.passages.filter(d=>d.text.toLowerCase().includes('credit')).length);
+search.value='zzzz_no_match';search.dispatchEvent(new w.Event('input'));assert.equal(highlighted(),0);q('#reset').click();assert.equal(highlighted(),data.passages.length);
+const nonzero=all('#matrix tbody button').find(b=>Number(b.textContent)>0);nonzero.click();assert.equal(highlighted(),Number(nonzero.textContent));assert.equal(nonzero.getAttribute('aria-pressed'),'true');nonzero.click();assert.equal(highlighted(),data.passages.length);
+const section=q('#section-filter');section.value=data.sections[2].section;section.dispatchEvent(new w.Event('change'));assert.equal(highlighted(),data.sections[2].count);
+q('#reset').click();q('.passage').dispatchEvent(new w.MouseEvent('click',{bubbles:true}));assert.equal(all('.neighbors li').length,5);assert(q('#details').textContent.includes('PDF page'));assert.equal(all('#matrix .selected').length,1);
+const before=q('#details h3').textContent;q('.neighbors button').click();assert.notEqual(q('#details h3').textContent,before);
+q('#reset').click();assert.equal(all('.neighbors li').length,0);assert.equal(q('#map svg > g > g').getAttribute('transform'),'translate(0,0) scale(1)');
+const words=q('#design-description').textContent.trim().split(/\s+/).length;assert(words>=200&&words<=300,words);
+console.log('PASS: map, matrix, search/no-match, filters, linked selection, neighbor navigation, reset, design length ('+words+' words).');
+w.close();
+}catch(e){console.error(e);w.close();process.exitCode=1;}},100);
