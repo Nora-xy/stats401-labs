@@ -1,0 +1,77 @@
+:root {
+  --bg: #f7f4ef;
+  --ink: #1d1b18;
+  --muted: #6c645c;
+  --card: #ffffff;
+  --line: #ded8cf;
+  --accent: #b23a2f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+main { max-width: 1180px; margin: 0 auto; padding: 38px 22px 64px; }
+a { color: #8f2f28; }
+.hero { margin-bottom: 24px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .12em; color: var(--accent); font-weight: 700; font-size: 13px; }
+h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.02; margin: 8px 0 16px; max-width: 980px; }
+h2 { font-size: 24px; margin: 0 0 14px; }
+.lede { font-size: 19px; max-width: 850px; color: #443e38; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 24px; margin: 22px 0; box-shadow: 0 10px 30px rgba(62, 48, 37, .07); }
+.original-grid { display: grid; grid-template-columns: minmax(300px, 1.25fr) minmax(280px, .75fr); gap: 24px; align-items: start; }
+figure { margin: 0; }
+figcaption { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.original-img { width: 100%; border: 1px solid var(--line); border-radius: 10px; background: #f1eee8; }
+.controls { display: flex; align-items: center; gap: 10px; margin: 16px 0 12px; flex-wrap: wrap; }
+select { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: white; }
+.note { color: var(--muted); margin-top: -4px; }
+.vis-wrap { min-height: 630px; position: relative; border: 1px solid var(--line); border-radius: 14px; padding: 14px; background: #fbfaf7; }
+.loading { padding: 24px; color: var(--muted); }
+.county { stroke: rgba(255,255,255,.42); stroke-width: .25px; cursor: pointer; }
+.county:hover { stroke: #1d1b18; stroke-width: 1.1px; }
+.state-boundary { fill: none; stroke: rgba(30, 27, 24, .35); stroke-width: .7px; pointer-events: none; }
+.legend text, .axis text { fill: #544d45; font-size: 12px; }
+.legend-title, .chart-title { font-weight: 700; fill: #1d1b18; font-size: 13px; }
+.axis path, .axis line { stroke: #bcb4aa; }
+.hist-bar { fill: #a59a8f; }
+.hist-bar.active { fill: var(--accent); }
+#tooltip { position: fixed; display: none; pointer-events: none; background: rgba(29,27,24,.94); color: white; padding: 10px 12px; border-radius: 10px; font-size: 13px; max-width: 260px; z-index: 10; box-shadow: 0 8px 26px rgba(0,0,0,.25); }
+#tooltip strong { display: block; font-size: 14px; margin-bottom: 4px; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+ul { padding-left: 20px; }
+@media (max-width: 820px) {
+  .original-grid, .two-col { grid-template-columns: 1fr; }
+  .vis-wrap { min-height: 520px; padding: 8px; }
+}
+.vis-wrap { min-height: 0; padding: 0; overflow: hidden; }
+.vis-wrap svg { display: block; touch-action: none; }
+input, button { font: inherit; border: 1px solid var(--line); border-radius: 7px; padding: 8px 12px; background: #fff; color: var(--ink); }
+input { width: min(100%, 360px); }
+button { cursor: pointer; }
+button:hover { background: #eee8df; }
+:focus-visible { outline: 3px solid #147a96; outline-offset: 3px; }
+.detail { background: #f1eee8; border-left: 3px solid var(--accent); padding: 12px; min-height: 72px; }
+.county { vector-effect: non-scaling-stroke; }
+.county.selected { stroke: #141414; stroke-width: 1.8px; }
+.state-boundary { vector-effect: non-scaling-stroke; }
+.map-note { font-size: 13px; fill: #544d45; }
+.legend-heading { margin-bottom: 8px; font-weight: 700; }
+#legend { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-bottom: 12px; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.swatch { display: inline-block; width: 24px; height: 15px; border: 1px solid #0002; }
+#histogram svg { width: 100%; display: block; }
+#chart-capture { background: white; padding: 8px; }
+.report { max-width: 860px; }
+.report figure { margin: 24px 0; }
+.report img { width: 100%; }
+@media (max-width: 600px) {
+  main { padding: 20px 12px; }
+  .card { padding: 16px; }
+  select { max-width: 100%; }
+  #histogram { overflow-x: auto; }
+  #histogram svg { min-width: 650px; }
+}

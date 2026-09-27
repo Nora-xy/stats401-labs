@@ -1,0 +1,9 @@
+tmp/
+__pycache__/
+*.pyc
+
+scripts/
+assets/slide-redesign.png
+presentation_script.md
+Xinyi*.pptx
+Xinyi*.pdf

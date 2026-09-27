@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visualization Critique and Redesign - Where America Lives</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Visualization Critique and Redesign</p>
+      <h1>Where America Lives: redesigning a population-density map</h1>
+      <p class="lede">This page critiques TIME's 3D population-density map and redesigns it as an interactive D3 choropleth that makes county-level comparison and low-density variation easier to inspect.</p>
+    </section>
+
+    <section class="card">
+      <h2>Original visualization</h2>
+      <div class="original-grid">
+        <figure>
+          <img class="original-img" src="Where%20Americans%20Live.png" alt="Screenshot of TIME's Where America Lives population density spike map" />
+          <figcaption>TIME, <em>Where America Lives</em>. The original page is Flash-based; the locally supplied screenshot preserves its density map and legend.</figcaption>
+        </figure>
+        <div>
+          <p><strong>Title and source:</strong> <a href="https://content.time.com/time/interactive/0,31813,1549966,00.html">Where America Lives</a>, TIME graphic by Feilding Cage, TIME USA, LLC. (2019 copyright footer; publication date unverified).</p>
+          <p><strong>Data shown:</strong> U.S. population density across local areas (the original spatial unit and data year are unverified), with tall red spikes marking dense metropolitan regions and flatter areas representing sparse population.</p>
+          <p><strong>Intended message:</strong> The original annotation states that 80% of Americans live in metropolitan areas; this is a historical claim from the graphic, not a result calculated here. The map emphasizes the contrast between dense coastal / urban corridors and the sparse interior West and Midwest.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Redesigned D3 visualization</h2>
+      <p id="coverage" class="note">Loading 2020 county estimates…</p>
+      <p>Explore the national pattern, then switch to rural detail. Use zoom buttons and drag the map to inspect small counties.</p>
+      <div class="controls">
+        <label for="mode">Color scale:</label>
+        <select id="mode">
+          <option value="full">National range</option>
+          <option value="low">Detail below 100 people / sq mi</option>
+        </select>
+      </div>
+      <div class="controls">
+        <label for="county-search">County lookup:</label>
+        <input id="county-search" list="county-options" placeholder="e.g. Durham County, North Carolina" autocomplete="off" />
+        <datalist id="county-options"></datalist>
+        <button id="clear-county" type="button">Clear selection</button>
+        <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+        <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+        <button id="reset-map" type="button">Reset map</button>
+      </div>
+      <p id="county-detail" role="status" aria-live="polite" class="detail">County values appear here.</p>
+      <div id="chart-capture">
+      <div id="vis" class="vis-wrap">
+        <div class="loading">Loading local Census data and county boundaries…</div>
+      </div>
+      <p class="legend-heading">People per land square mile</p>
+      <div id="legend" aria-label="Density color legend"></div>
+      <p id="scale-description" class="note"></p>
+      <h3>How common is each density?</h3>
+      <div id="histogram"></div>
+      <p class="note">Each mapped county area counts once. Equal-width logarithmic bins show county counts, not shares of people. Selecting a county highlights its bin.</p>
+      </div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <h2>Critique summary</h2>
+        <p><strong>Strengths:</strong> The original map has strong visual hierarchy and an immediately legible message: urban America appears as isolated peaks against a mostly low-density landmass. Color and height work together to attract attention to dense metropolitan areas.</p>
+        <p><strong>Weaknesses:</strong> The 3D spikes make precise comparison difficult, occlude nearby regions, and compress low-density counties into a nearly indistinguishable baseline. Labels and legend are also not sufficient for county-level lookup.</p>
+      </div>
+      <div>
+        <h2>Redesign logic</h2>
+        <p>The redesign uses a 2D county choropleth, persistent county details, keyboard-accessible lookup, a linked density histogram, and a scale toggle. It preserves the national concentration story while making comparison, lookup, and low-density exploration more explicit.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Data and references</h2>
+      <p>Density = July 1, 2020 population estimate ÷ official 2020 Gazetteer land area in square miles. These are population estimates, not decennial census counts. Data and scripts are bundled locally. The map uses simplified 2017 <code>us-atlas</code> boundaries. Chugach and Copper River are combined to match the older Valdez-Cordova area. The 3,142 mapped areas cover the 50 states and DC; territories are excluded.</p>
+      <p>County averages hide variation within counties, and large rural polygons dominate the map's area. Colors support grouped comparison; use numeric details for values. This is an equivalent-data redesign, not a reconstruction of TIME's historical measurements.</p>
+      <ul>
+        <li><a href="https://content.time.com/time/interactive/0,31813,1549966,00.html">TIME: Where America Lives</a></li>
+        <li><a href="https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/counties/totals/co-est2020.csv">Census county population estimates, vintage 2020</a> (POPESTIMATE2020)</li>
+        <li><a href="https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2020.html">2020 Census Gazetteer</a> (ALAND_SQMI)</li>
+        <li><a href="data/county-density-2020.csv">Download the chart data (CSV)</a> · <a href="data/README.md">Data provenance and processing</a></li>
+        <li><a href="https://github.com/topojson/us-atlas">us-atlas county TopoJSON</a></li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Report</h2>
+      <p><a href="report.html">Read the illustrated critique and redesign report</a> · <a href="report.md">Markdown version</a></p>
+    </section>
+  </main>
+  <noscript><p>This visualization needs JavaScript. The illustrated report and CSV remain available above.</p></noscript>
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="vendor/topojson-client.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
