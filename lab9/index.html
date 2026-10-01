@@ -1,1 +1,49 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Lab 9</title><link rel="stylesheet" href="../css/style.css"></head><body><main class="page-shell"><p class="eyebrow">STATS 401</p><h1>Lab 9</h1><p class="intro">Lab 9 will be added here.</p><p><a href="../index.html">← Back to home</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 9 · The shape of the world economy</title>
+  <link rel="stylesheet" href="lab9.css">
+  <script defer src="../lab4/vendor/d3.v7.min.js"></script>
+  <script defer src="lab9.js"></script>
+</head>
+<body><main>
+  <header>
+    <a class="back" href="../">← All labs</a>
+    <p class="eyebrow">STATS 401 / LAB 09 / GEOSPATIAL VISUALIZATION</p>
+    <h1>The shape of the<br>world economy<span>.</span></h1>
+    <p class="intro">The same 2025 GDP data, seen through geography and economic size. Explore how changing the visual encoding changes the story.</p>
+  </header>
+  <section class="dataset" aria-labelledby="dataset-title">
+    <div><h2 id="dataset-title">50 economies. Two perspectives.</h2><p>The provided dataset contains the 50 largest economies by 2025 nominal GDP, in <strong>billions of current U.S. dollars</strong>. It is based on the IMF World Economic Outlook, October 2025; observations may include staff estimates and can be revised. This measures total output, not GDP per person.</p></div>
+    <div class="stat"><strong id="total">—</strong><span>combined GDP in this dataset</span></div>
+  </section>
+  <section class="explorer" aria-label="Coordinated GDP maps">
+    <div class="toolbar"><label for="country-select">Explore an economy <select id="country-select"><option value="">Choose a country or economy</option></select></label><button id="clear" type="button">Clear selection</button><span id="join-status" role="status">Loading boundaries and GDP…</span></div>
+    <p id="selection" aria-live="polite">Hover to compare. Click a country to keep it selected in both views.</p>
+    <div class="maps">
+      <article class="map-card"><div class="card-heading"><p class="eyebrow">01 / GEOGRAPHY FIRST</p><h2>2025 GDP choropleth</h2><p>Country boundaries stay intact. Color represents GDP.</p></div>
+        <div class="map-tools"><button data-zoom="in" type="button" aria-label="Zoom in choropleth">+</button><button data-zoom="out" type="button" aria-label="Zoom out choropleth">−</button><button data-zoom="reset" type="button">Reset map</button><span>Scroll to zoom · drag to pan</span></div>
+        <svg id="choropleth" viewBox="0 0 760 480" role="group" aria-label="World choropleth of 2025 nominal GDP"></svg>
+        <div id="color-legend" class="legend"></div>
+        <p class="map-note">Logarithmic color scale · Gray = no value in the provided dataset. Locate Singapore and Hong Kong using the selector and zoom.</p>
+      </article>
+      <article class="map-card"><div class="card-heading"><p class="eyebrow">02 / ECONOMIC SIZE FIRST</p><h2>2025 GDP cartogram</h2><p>Each circle is an economy. <strong>Circle area represents GDP.</strong></p></div>
+        <div class="map-tools"><span>Dorling cartogram · approximate geographic positions</span></div>
+        <svg id="cartogram" viewBox="0 0 760 480" role="group" aria-label="Dorling cartogram with circle area proportional to GDP"></svg>
+        <div id="area-legend" class="legend"></div>
+        <p class="map-note">The same colors link the views. Circles move apart to avoid overlap; shapes, distances and neighbors change. Economies without GDP data have no circle; gray reference geography remains visible.</p>
+      </article>
+    </div>
+  </section>
+  <section class="analysis" aria-labelledby="comparison-title"><p class="eyebrow">READING THE TWO VIEWS</p><h2 id="comparison-title">Geographic extent ≠ economic weight</h2>
+    <div id="comparison">
+      <p>The United States and China stand out in both views: they have the darkest fills and the largest GDP circles. On the choropleth, Russia, Canada, and Australia also attract attention because their geographic footprints are large, even though their GDP is far below that of the United States.</p>
+      <p>In the Dorling cartogram, Germany, Japan, the United Kingdom, and especially compact economies such as Singapore become more prominent relative to their land area. Russia, Canada, and Australia lose geographic dominance. Circle area is directly proportional to GDP, while radius is proportional to its square root. This makes economic magnitude more explicit than color alone.</p>
+      <p>The choropleth preserves country outlines, adjacency, and recognizable geographic placement, subject to projection distortion. It supports questions about where high-output economies are located and how GDP varies across regions. A logarithmic color scale separates the many smaller values instead of letting the United States and China compress most countries into similar pale shades; equal color steps represent multiplicative differences.</p>
+      <p>The cartogram better supports comparisons of total economic size. It replaces boundaries with circles and displaces their centers to prevent overlap, sacrificing exact distances, shapes, and some neighborhood relationships. Linked highlighting preserves identity across these changes. Together, the views show why a country's apparent size on a conventional map can be a poor guide to its share of economic output.</p>
+    </div>
+  </section>
+  <footer><p><strong>Data & method.</strong> <a href="../data/lab9_gdp_2025_top50.csv">Provided GDP dataset (CSV)</a> · <a href="https://www.imf.org/en/Publications/WEO/weo-database/2025/October">IMF WEO, October 2025</a> · <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">Natural Earth 1:50m boundaries</a> (public domain).</p><p>GDP joins to normalized ISO-3 identifiers. D3's Natural Earth projection and geoPath draw the geography. The Dorling layout uses <a href="https://d3js.org/d3-force/collide">D3 collision forces</a> and weak geographic attraction; every circle uses the same area-to-GDP constant. Boundaries follow the source's cartographic conventions.</p></footer>
+</main><div id="tooltip" role="tooltip" hidden></div></body></html>
